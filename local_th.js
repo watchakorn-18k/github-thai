@@ -5280,10 +5280,7 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
                 "License:": "ใบอนุญาต：",
                     "License": "ใบอนุญาต",
             "Grant your Marketplace apps access to this repository":"ให้สิทธิ์แอป Marketplace ของคุณเข้าถึง repository นี้",
-                "You are":"คุณได้",
-                " subscribed to ":"สมัครรับข้อมูลอยู่ ",
-                "Marketplace app":"จากแอป Marketplace",
-                "s":"",
+                "You are subscribed to":"คุณได้",
             "You are creating a public repository in your personal account.": "คุณกำลังสร้าง Repository สาธารณะในบัญชีส่วนตัวของคุณ",
             "You are creating a private repository in your personal account.": "คุณกำลังสร้าง Repository ส่วนตัวในบัญชีส่วนตัวของคุณ",
 
