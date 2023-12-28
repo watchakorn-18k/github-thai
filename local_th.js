@@ -5235,7 +5235,7 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
             //"Begin import": "开始导入",
             "Owner": "เจ้าของ",
             "Repository name": "ชื่อ Repository",
-            "Great repository names are short and memorable. Need inspiration? How about": "ชื่อ Repository ที่ดีนั้นควรสั้นและน่าจดจำ ต้องการให้ช่วยหรือเปล่า? ลองชื่อนี้เป็นยังไง：",
+            "Great repository names are short and memorable. Need inspiration? How about": "ชื่อที่ดีนั้นควรสั้นและน่าจดจำ ต้องการให้ช่วยหรือเปล่า? ลองชื่อนี้เป็นยังไง ",
                 "Checking availability…": "ตรวจสอบความพร้อม…",
                 "is available.": "สามารถใช้ได้ ",
                 "The repository": "Repository นี้",
