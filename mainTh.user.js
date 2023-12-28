@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         GitHub 中文化插件
+// @name         GitHub ปลั๊กอินภาษาไทย
 // @namespace    https://github.com/watchakorn-18k/github-thai
-// @description  中文化 GitHub 界面的部分菜单及内容。原作者为楼教主(http://www.52cik.com/)。
+// @description  เมนูและเนื้อหาบางส่วนของอินเทอร์เฟซ GitHub ภาษาไทย ผู้เขียนต้นฉบับคือ (http://www.52cik.com/)。
 // @copyright    2021, 沙漠之子 (https://maboloshi.github.io/Blog)
 // @icon         https://github.githubassets.com/pinned-octocat.svg
 // @version      1.9.0-2023-12-25
-// @author       沙漠之子
+// @author       watchakorn-18k
 // @license      GPL-3.0
 // @match        https://github.com/*
 // @match        https://gist.github.com/*
