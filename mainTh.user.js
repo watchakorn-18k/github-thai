@@ -23,7 +23,7 @@
 (function (window, document, undefined) {
     'use strict';
 
-    const lang = 'th'; // 设置默认语言
+    const lang = 'th'; // ตั้งค่าภาษาเริ่มต้น
     let page;
     let enable_RegExp = GM_getValue("enable_RegExp", 1);
 
@@ -49,7 +49,7 @@
             if (currentURL !== getCurrentURL.previousURL) {
                 getCurrentURL.previousURL = currentURL;
                 page = getPage(); // 当页面地址发生变化时，更新全局变量 page
-                console.log(`链接变化 page= ${page}`);
+                console.log(`การเปลี่ยนแปลงลิงค์ page= ${page}`);
 
                 transTitle(); // 翻译页面标题
 
@@ -221,7 +221,7 @@
         }
 
         if (!page || !I18N[lang][page]){
-            console.log(`请注意对应 page ${page} 词库节点不存在`);
+            console.log(`โปรดทราบว่าไม่มีโหนดคำศัพท์ที่ตรงกับหน้า ${page}`);
             page = false;
         }
         return page;
@@ -366,7 +366,7 @@
         }
 
         // 在元素后面插入一个翻译按钮
-        const buttonHTML = `<div id='translate-me' style='color: rgb(27, 149, 224); font-size: small; cursor: pointer'>翻译</div>`;
+        const buttonHTML = `<div id='translate-me' style='color: rgb(27, 149, 224); font-size: small; cursor: pointer'>แปลภาษา</div>`;
         element.insertAdjacentHTML('afterend', buttonHTML);
         let button = element.nextSibling;
 
@@ -384,7 +384,7 @@
             translateDescText(desc, text => {
                 // 翻译完成后，隐藏翻译按钮，并在元素后面插入翻译结果
                 button.style.display="none";
-                const translationHTML = `<span style='font-size: small'>由 <a target='_blank' style='color:rgb(27, 149, 224);' href='https://www.iflyrec.com/html/translate.html'>讯飞听见</a> 翻译👇</span><br/>${text}`;
+                const translationHTML = `<span style='font-size: small'>由 <a target='_blank' style='color:rgb(27, 149, 224);' href='https://www.iflyrec.com/html/translate.html'>iflyrec </a> แปล👇</span><br/>${text}`;
                 element.insertAdjacentHTML('afterend', translationHTML);
             });
         });
@@ -416,16 +416,16 @@
             onload: (res) => {
                 try {
                     const { status, response } = res;
-                    const translatedText = (status === 200) ? response.biz[0].translateResult : "翻译失败";
+                    const translatedText = (status === 200) ? response.biz[0].translateResult : "การแปลล้มเหลว";
                     callback(translatedText);
                 } catch (error) {
-                    console.error('翻译失败', error);
-                    callback("翻译失败");
+                    console.error('การแปลล้มเหลว', error);
+                    callback("การแปลล้มเหลว");
                 }
             },
             onerror: (error) => {
-                console.error('网络请求失败', error);
-                callback("网络请求失败");
+                console.error('คำขอเครือข่ายล้มเหลว', error);
+                callback("คำขอเครือข่ายล้มเหลว");
             }
         });
     }
@@ -451,10 +451,10 @@
         }
     }
 
-    GM_registerMenuCommand("正则切换", () => {
+    GM_registerMenuCommand("สวิตช์ปกติ", () => {
         enable_RegExp = !enable_RegExp;
         GM_setValue("enable_RegExp", enable_RegExp);
-        GM_notification(`已${enable_RegExp ? '开启' : '关闭'}正则功能`);
+        GM_notification(`${enable_RegExp ? 'on' : 'off'} ฟังก์ชันปกติ`);
         if (enable_RegExp) {
             location.reload();
         }
@@ -466,7 +466,7 @@
     function init() {
         // 获取当前页面的翻译规则
         page = getPage();
-        console.log(`开始page= ${page}`);
+        console.log(`เริ่มต้น page= ${page}`);
 
         // 翻译页面标题
         transTitle();
