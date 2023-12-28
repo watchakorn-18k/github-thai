@@ -314,14 +314,14 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "You have unread notifications": "您有未读通知",
 
         // 右上角新建按钮下拉菜单
-        "New repository": "新建仓库",
-        "Import repository": "导入仓库",
-        "New codespace": "新建代码空间",
-        "New gist": "新建代码片段",
-        "New organization": "新建组织",
-        "New project": "新建项目",
-        "This organization": "本组织", // 组织
-        "New team": "新建团队", // 组织
+        "New repository": "สร้าง Repository ใหม่",
+        "Import repository": "นำเข้า Repository",
+        "New codespace": "สร้าง Codespace ใหม่",
+        "New gist": "สร้าง Gist ใหม่",
+        "New organization": "สร้างองค์กรใหม่",
+        "New project": "สร้าง Project ใหม่",
+        "This organization": "องค์กร", // 组织
+        "New team": "สร้างทีมใหม่", // 组织
 
         // 新版全局导航
         "Command palette": "命令面板",
@@ -658,14 +658,14 @@ I18N.th["pubilc"] = { // 公共区域翻译
             "Commands": "命令",
             "Global Commands": "全局命令",
             "Type > to filter": "键入 > 去筛选",
-            "– New repository": "- 新建仓库",
-            "– Import repository": "- 导入仓库",
-            "– New project": "- 新建项目",
-            "– New discussion": "- 新建讨论",
-            "– New organization": "- 新建组织",
-            "– New gist": "- 新建代码片段",
-            "– New issue": "- 新建议题",
-            "– New file": "- 新建文件",
+            "– New repository": "- สร้าง Repository ใหม่",
+            "– Import repository": "- นำเข้า Repository",
+            "– New project": "- สร้าง Project ใหม่",
+            "– New discussion": "- สร้างการสนทนาใหม่",
+            "– New organization": "- สร้างองค์กรใหม่",
+            "– New gist": "- สร้าง Gist ใหม่",
+            "– New issue": "- สร้างปัญหาใหม่",
+            "– New file": "- สร้างไฟล์ใหม่",
             "– Change tab size rendering": "- 切换制表符尺寸",
             "– Switch theme": "- 切换主题",
 
@@ -5227,14 +5227,14 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
         ...I18N.th["repository-public"]["static"],
 
         // 新建仓库 https://github.com/new
-            "Create a new repository": "创建新仓库",
-            "A repository contains all project files, including the revision history.": "仓库包含项目中的所有文件，包括修订历史记录。",
-            "Already have a project repository elsewhere?": "在其他地方已有仓库？",
-            "Import a repository.": "导入仓库",
+            "Create a new repository": "สร้าง Repository ใหม่",
+            "A repository contains all project files, including the revision history.": "Repository คือที่เก็บที่ประกอบด้วยไฟล์ทั้งหมดในโปรเจ็กต์ของคุณและรวมถึงประวัติการแก้ไขต่างๆ",
+            "Already have a project repository elsewhere?": "คุณมี Repository หรือเปล่า",
+            "Import a repository.": "นำเข้า Repository",
             //"Cancel": "取消",
             //"Begin import": "开始导入",
-            "Owner": "所有者",
-            "Repository name": "仓库名称",
+            "Owner": "เจ้าของ",
+            "Repository name": "ชื่อ Repository",
             "Great repository names are short and memorable. Need inspiration? How about": "好的仓库名称应该简单且容易记忆。需要灵感吗？这个怎么样：",
                 "Checking availability…": "检查可用性…",
                 "is available.": "名称可用。",
@@ -15349,8 +15349,8 @@ I18N.th["orgs"] = { // 组织页面
                 "Developer Program Member": "开发者计划成员",
                 "Report abuse": "举报滥用",
 
-            "Create new repository": "新建仓库",
-            "Import": "导入",
+            "Create new repository": "สร้าง Repository ใหม่",
+            "Import": "นำเจ้า",
 
             "This organization has no repositories.": "该组织暂无仓库。",
             "View all repositories": "查看所有仓库",
