@@ -1,3 +1,7 @@
+## Github Thai
+
+![i](https://cdn.discordapp.com/attachments/372372440334073859/1189870689709211698/image.png?ex=659fbc6f&is=658d476f&hm=42347e2ac304f9d8ed708338d4293cbf6e41df1837181ef15702c41ab6591553&)
+
 
 ## 🚩 ฟังก์ชั่น
 
@@ -7,8 +11,8 @@
 
 เบราว์เซอร์ | ตัวจัดการสคริปต์
 :---------------------------------: | :----------:
-Chrome หรือเบราว์เซอร์ที่ใช้ Chromium | [Tampermonkey][Tampermonkey],[Violentmonkey][Violentmonkey]
-Safari | [Macaque][Macaque]
+Chrome หรือเบราว์เซอร์ที่ใช้ Chromium | [Tampermonkey](https://www.tampermonkey.net/),[Violentmonkey](https://violentmonkey.github.io/)
+Safari | [Macaque](https://macaque.app/)
 เบราว์เซอร์ Firefox | ไม่ได้ทดสอบ
 
 ## 💽 งานติดตั้ง
