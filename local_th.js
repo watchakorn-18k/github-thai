@@ -761,7 +761,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         ".": "。",
 
         // 名词
-        "Public": "公共",
+        "Public": "สาธารณะ",
         "Private": "私有",
         "Public archive": "公共存档",
         "Private archive": "私有存档",
@@ -1573,7 +1573,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
                 // 下拉菜单
                 "Select type": "选择类型",
                 "All": "全部",
-                "Public": "公共",
+                "Public": "สาธารณะ",
                 "Private": "私有",
                 "Sources": "源码",
                 "Forks": "复刻",
@@ -1599,7 +1599,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
             // 筛选结果
             "result for": "个结果在",
             "results for": "个结果在",
-                "public": "公共",
+                "public": "สาธารณะ",
                 "private": "私有",
                 "source": "源码",
                 "forked": "复刻",
@@ -1869,7 +1869,7 @@ I18N.th["page-profile/stars"] = { // 个人首页 - 星标标签卡
             "Type: Mirrors": "类型：镜像",
             "Type: Templates": "类型：模板",
                 "All"    : "全部",
-                "Public" : "公共",
+                "Public" : "สาธารณะ",
                 "Private": "私有",
                 "Sources": "源码",
                 "Forks"  : "复刻",
@@ -1893,7 +1893,7 @@ I18N.th["page-profile/stars"] = { // 个人首页 - 星标标签卡
             // 筛选结果
             "result for": "个结果在",
             "results for": "个结果在",
-                "public": "公共",
+                "public": "สาธารณะ",
                 "private": "私有",
                 "source": "源码",
                 "forked": "复刻",
@@ -3644,7 +3644,7 @@ I18N.th["settings/packages"] = { // 设置 - 软件包
             // 组织设置
                 "Package Creation": "包的创建",
                 "Members will be able to publish only the selected visibility types for packages and containers. Outside collaborators can never publish packages or containers.": "成员只能发布选定可见性类型的软件包和容器。外部协作者永远不能发布软件包或容器。",
-                "Public": "公共",
+                "Public": "สาธารณะ",
                     "Members will be able to create public packages, visible to anyone.": "成员将能够创建公共包，对任何人都可见。",
                 "Private": "私有",
                     "Members will be able to create private packages, visible to organization members with permission.": "成员将能够创建私有包，对具有权限的组织成员可见。",
@@ -4128,7 +4128,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
                     "Device Flow documentation": "设备流程文档",
 
             "Post installation": "安装完成后",
-                "Setup URL (optional)": "设置网址 (可选)",
+                "Setup URL (optional)": "设置网址 (ตัวเลือก)",
                     "Users will be redirected to this URL after installing your GitHub App to complete additional setup.": "用户在安装完 GitHub 应用后，会被重定向到这个网址，以完成额外的设置。",
                     "Unavailable when requesting OAuth during installation.": "安装过程中请求 OAuth 时不可用。",
                     "Users will be redirected to the 'User authorization callback URL' to complete additional setup.": "用户将被重定向到 “用户授权回调网址” 以完成其他设置。",
@@ -4143,7 +4143,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
                     "Events will POST to this URL. Read our": "事件将 POST 到此网址。阅读",
                     "webhook documentation": "关于 Web 钩子",
                     "for more information.": "以获取更多信息。",
-                "Webhook secret (optional)": "Web 钩子机密 (可选)",
+                "Webhook secret (optional)": "Web 钩子机密 (ตัวเลือก)",
                     "Read our": "阅读我们",
                     "webhook secret documentation": "Web 钩子机密文档",
 
@@ -4386,7 +4386,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
                     "Project item created, edited, deleted, archived, restored, converted, or reordered.": "项目条目的创建、编辑、删除、归档、恢复、转换或重新排序。",
                 "Projects v2": "项目 v2",
                     "Project created, updated, deleted, closed, or reopened.": "项目的创建、更新、删除、关闭或重新打开。",
-                // 公共
+                // สาธารณะ
                     "Repository changes from private to public.": "仓库从私有更改为公共。",
                 "Pull request": "拉取请求",
                     "Pull request assigned, auto merge disabled, auto merge enabled, closed, converted to draft, demilestoned, dequeued, edited, enqueued, labeled, locked, milestoned, opened, ready for review, reopened, review request removed, review requested, synchronized, unassigned, unlabeled, or unlocked.": "拉取请求的分配、禁用自动合并、启用自动合并、关闭、转换为草稿、取消里程碑、取消队列、编辑、队列、标记、锁定、设置里程碑、打开、准备审查、重新打开、取消审查请求、请求审查、同步、取消分配、取消标记或解锁。",
@@ -4615,7 +4615,7 @@ I18N.th["settings/applications/new"] = { // 设置 - 开发者设置/OAuth 应�
             "Homepage URL": "主页地址",
             "The full URL to your application homepage.": "您的应用主页地址。",
             "Application description": "应用描述",
-            "Application description is optional": "应用描述 (可选)",
+            "Application description is optional": "应用描述 (ตัวเลือก)",
             "This is displayed to all users of your application.": "所有用户都能看到您的应用描述。",
             "Authorization callback URL": "认证回调地址",
             "Your application’s callback URL. Read our": "您的应用授权回调地址。阅读我们",
@@ -5228,7 +5228,7 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
 
         // 新建仓库 https://github.com/new
             "Create a new repository": "สร้าง Repository ใหม่",
-            "A repository contains all project files, including the revision history.": "Repository จะประกอบด้วยไฟล์ทั้งหมดในโปรเจ็กต์ของคุณและรวมถึงประวัติการแก้ไขต่างๆ",
+            "A repository contains all project files, including the revision history.": "Repository จะประกอบด้วยไฟล์ทั้งหมดในโปรเจกต์ของคุณและรวมถึงประวัติการแก้ไขต่างๆ",
             "Already have a project repository elsewhere?": "หรือคุณมี Repository แล้วหรือเปล่า?",
             "Import a repository.": "นำเข้า Repository",
             //"Cancel": "取消",
@@ -5257,40 +5257,40 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
 
             "Description": "คำอธิบาย",
                 "(optional)": "(ตัวเลือก)",
-            "Public": "公共",
-                "Anyone on the internet can see this repository. You choose who can commit.": "任何人都可以看到这个仓库，您可以选择谁能提交。",
-            "Private": "私有",
-                "You choose who can see and commit to this repository.": "您可以选择谁可以看和提交到该仓库。",
-            "Initialize this repository with:": "使用以下方式初始化此仓库：",
+            "Public": "สาธารณะ",
+                "Anyone on the internet can see this repository. You choose who can commit.": "ทุกคนสามารถเห็น repository นี้ได้ และคุณสามารถเลือกผู้ที่สามารถ commit ได้ ",
+            "Private": "ส่วนตัว",
+                "You choose who can see and commit to this repository.": "คุณสามารถเลือกผู้ที่สามารถดูและ commit มายัง repository ได้",
+            "Initialize this repository with:": "การเริ่มต้น Repository นี้โดยใช้：",
                 "Skip this step if you’re importing an existing repository.": "如果您要导入现有仓库，请跳过此步骤。",
-            "Add a README file": "添加 README 文件",
-                "This is where you can write a long description for your project.": "您可以在此处为您的项目编写详细描述。",
-                "Learn more about READMEs.": "了解更多关于 README 的信息。",
-            "Add .gitignore": "添加 .gitignore 文件",
-                "Choose which files not to track from a list of templates.": "从模板列表中选择哪些文件不需要跟踪。",
-                "Learn more about ignoring files.": "了解更多关于忽略文件的信息。",
-            ".gitignore template:": ".gitignore 模板：",
-                ".gitignore template": ".gitignore 模板",
-                "Filter…": "筛选…",
-                "None": "无",
-            "Choose a license": "选择许可证",
-                "A license tells others what they can and can't do with your code.": "许可证告诉其他人，他们可以使用您的代码做什么和不能做什么。",
-                "Learn more about licenses.": "了解更多关于许可证的信息。",
+            "Add a README file": "เพิ่มไฟล์ README",
+                "This is where you can write a long description for your project.": "คุณสามารถเขียนคำอธิบายโดยละเอียดเกี่ยวกับโปรเจกต์ของคุณได้ที่นี่",
+                "Learn more about READMEs.": "เรียนรู้เพิ่มเติมเกี่ยวกับ README",
+            "Add .gitignore": "เพิ่มไฟล์ .gitignore",
+                "Choose which files not to track from a list of templates.": "เลือกไฟล์ที่ไม่ต้องการการติดตามจากรายการเทมเพลต",
+                "Learn more about ignoring files.": "เรียนรู้เพิ่มเติมเกี่ยวกับการละเว้นไฟล์",
+            ".gitignore template:": "เทมเพลต .gitignore：",
+                ".gitignore template": "เทมเพลต .gitignore",
+                "Filter…": "กรอง…",
+                "None": "ไม่มี",
+            "Choose a license": "เลือกใบอนุญาต",
+                "A license tells others what they can and can't do with your code.": "ใบอนุญาตจะบอกผู้อื่นถึงสิ่งที่พวกเขาทำได้และไม่สามารถทำอะไรกับโค้ดของคุณ",
+                "Learn more about licenses.": "เรียนรู้เพิ่มเติมเกี่ยวกับใบอนุญาต",
 
-                "License:": "许可证：",
-                    "License": "许可证",
+                "License:": "ใบอนุญาต：",
+                    "License": "ใบอนุญาต",
 
-            "You are creating a public repository in your personal account.": "您正在个人帐户中创建公共仓库",
-            "You are creating a private repository in your personal account.": "您正在个人帐户中创建私有仓库",
+            "You are creating a public repository in your personal account.": "คุณกำลังสร้าง Repository สาธารณะในบัญชีส่วนตัวของคุณ",
+            "You are creating a private repository in your personal account.": "คุณกำลังสร้าง Repository ส่วนตัวในบัญชีส่วนตัวของคุณ",
 
-            "This will set": "这将设置",
-            "as the default branch.": "为默认分支。",
-            "Change the default name in": "变更默认名称在",
-            "your": "您的",
-            "settings": "设置",
+            "This will set": "สิ่งนี้จะตั้งค่า",
+            "as the default branch.": "เป็น branch เริ่มต้น",
+            "Change the default name in": "เปลี่ยนชื่อเริ่มต้นใน",
+            "your": "ของคุณ",
+            "settings": "การตั้งค่า",
 
-            "Create repository": "创建仓库",
-            "Creating repository…": "创建仓库中…",
+            "Create repository": "สร้าง Repository",
+            "Creating repository…": "กำลังสร้าง Repository…",
 
         // 依据模板新建仓库 https://github.com/new?template_owner=<template-owner>&template_name=<template-name>
             "Repository template": "เทมเพลต Repository",
@@ -5317,8 +5317,8 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
                 //"The repository": "仓库",
                 //"already exists on this account.": "已经存在于此帐户。",
                 //"Your new repository will be created as": "您的新仓库将被创建为",
-            //"Public": "公共",
-            //"Anyone on the internet can see this repository. You choose who can commit.": "任何人都可以看到这个仓库，您可以选择谁能提交。",
+            //"Public": "สาธารณะ",
+            //"Anyone on the internet can see this repository. You choose who can commit.": "ทุกคนสามารถเห็น repository นี้ได้ และคุณสามารถเลือกผู้ที่สามารถ commit ได้ 。",
             //"Private": "私有",
             //"You choose who can see and commit to this repository.": "您可以选择谁可以看和提交到该仓库。",
             "Cancel": "取消",
@@ -8887,7 +8887,7 @@ I18N.th["repository/new"] = { // 仓库 - 新建/编辑/上传/删除文件页�
             "Propose new file": "提议新文件", //  他人仓库
             "Sign off and commit new file": "签署并提交新文件",
             // 提交框
-                "Add an optional extended description…": "添加描述... (可选)",
+                "Add an optional extended description…": "添加描述... (ตัวเลือก)",
 
                 "You are": "您将",
                 "signing off": "签署",
@@ -9104,7 +9104,7 @@ I18N.th["repository/wiki"] = { // 仓库 - wiki 页面
             "Edit mode:": "编辑模式：",
             "Edit message": "提交信息",
 
-            "Write a small message here explaining this change. (Optional)": "在这里写一条小消息，解释这一变化。(可选)",
+            "Write a small message here explaining this change. (Optional)": "在这里写一条小消息，解释这一变化。(ตัวเลือก)",
             "Save page": "保存页面",
             // 顶部提醒
                 "Your Wiki was created.": "您的 Wiki 已创建。",
@@ -9615,7 +9615,7 @@ I18N.th["repository/releases"] = { // 仓库 - 发行版页面
                 "Primary Category": "主要类别",
                     "Choose an option": "请选择",
                 "Another Category": "其他分类",
-                    "— optional": "— 可选",
+                    "— optional": "— ตัวเลือก",
 
     },
     "regexp": [ // 正则翻译
@@ -14389,7 +14389,7 @@ I18N.th["gist"] = { // 代码片段页面
         "Type:": "类型:",
         "Filter options": "筛选选项",
         "All": "所有",
-        "Public": "公共",
+        "Public": "สาธารณะ",
         "Secret": "私密",
 
         "Created": "创建于",
@@ -15239,7 +15239,7 @@ I18N.th["orgs"] = { // 组织页面
                     // 下拉菜单
                     "Select type": "选择类型",
                     "All": "全部",
-                    "Public": "公共",
+                    "Public": "สาธารณะ",
                     "Private": "私有",
                     "Sources": "源码",
                     "Forks": "复刻",
@@ -15265,7 +15265,7 @@ I18N.th["orgs"] = { // 组织页面
                 // 筛选结果
                 "result for": "个结果在",
                 "results for": "个结果在",
-                    "public": "公共",
+                    "public": "สาธารณะ",
                     "private": "私有",
                     "source": "源码",
                     "forked": "复刻",
@@ -15796,7 +15796,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
 
                 "Repository creation": "仓库创建",
                     "Members will be able to create only selected repository types. Outside collaborators can never create repositories.": "成员将只能创建选定类型的仓库。外部协作者永远不能创建仓库。",
-                    "Public": "公共",
+                    "Public": "สาธารณะ",
                         "Members will be able to create public repositories, visible to anyone.": "成员将能够创建任何人都可见的公共仓库。",
                         "Why is this option disabled?": "为什么该选项被禁用？",
                     "Private": "私有",
@@ -15850,7 +15850,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
 
                 "Pages creation": "页面创建",
                     "Members will be able to publish sites with only the selected access controls.": "成员将能够发布仅只有选定的访问控制的站点。",
-                    // "Public": "公共",
+                    // "Public": "สาธารณะ",
                         "Members will be able to create public sites, visible to anyone.": "成员将能够创建任何人都可见的公共站点。",
                     // "Private": "私有",
                         "Members will be able to create private sites, visible to anyone with permission.": "成员将能够创建私有站点，对任何有权限的人可见。",
@@ -15875,7 +15875,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
                     "Repository deletion and transfer": "仓库的删除和转让",
                         "Allow members to delete or transfer repositories for this organization": "允许成员删除或转让此组织的仓库",
                             "If enabled, members with admin permissions for the repository will be able to delete or transfer": "如果启用，对仓库有管理权限的成员将能够删除或转让",
-                            "public": "公共",
+                            "public": "สาธารณะ",
                             "private": "私有",
                             "repositories. If disabled, only organization owners can delete or transfer repositories.": "仓库。如果禁用，只有组织所有者可以删除或转让仓库。",
                         // 顶部提醒
@@ -17214,7 +17214,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
                 "Bug triage": "BUG 分类",
                     "Triage and prioritize bugs with columns for To do, High priority, Low priority, and Closed.": "使用待办事项、高优先级、低优先级和已关闭的栏目对错误进行分类和优先级排序。",
             "Visibility": "可见性",
-                // "Public": "公共",
+                // "Public": "สาธารณะ",
                     "Anyone on the internet can see this project. You choose who can make changes.": "互联网上的任何人都可以看到这个项目。您选择谁可以进行更改。",
                 "Private": "私有",
                     "You choose who can see and make changes to this project.": "您可以选择谁可以查看此项目并对其进行更改。",
@@ -17530,7 +17530,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
                 "This project doesn’t have any linked repositories yet.": "该项目暂无任何关联的仓库。",
 
         // https://github.com/users/<user-name>/projects/<id>/edit
-            "(optional)": "(可选)",
+            "(optional)": "(ตัวเลือก)",
             "Once you delete this project, there is no going back. Please be certain.": "一旦您删除了这个项目，就再也无法恢复。请确认。",
     },
     "regexp": [ // 正则翻译
@@ -17653,10 +17653,10 @@ I18N.th["codespaces"] = { // 代码空间页面
                     "Create fork": "创建复刻",
                 "Publish to a new repository": "发布到新仓库", // 从模板创建
                     "This will create a new repository and push up your work.": "这将创建一新仓库，并推送你的工作。",
-                    // 公共
+                    // สาธารณะ
                         "Anyone on the internet can see this repository. You choose who can commit.": "互联网上的任何人都可以看到该仓库。您可以选择谁可以提交。",
                     // 私有
-                        "You choose who can see and commit to this repository.": "您选择谁可以查看并提交到此仓库。",
+                        "You choose who can see and commit to this repository.": "คุณสามารถเลือกผู้ที่สามารถดูและ commit มายัง repository ได้",
                     "Create repository": "创建仓库",
                 "Change machine type": "修改机器类型",
                     "Change codespace machine type": "修改代码空间机器类型",
