@@ -184,7 +184,7 @@ I18N.th["title"] = { // 标题翻译
         "Runners": "运行器",
         "Runner Groups": "运行器组",
         "Packages": "软件包",
-        "Security": "安全",
+        "Security": "ความปลอดภัย",
         "Verified & approved domains": "经验证和批准的域名",
         "Third-party application access policy": "第三方应用访问策略",
         "Audit log": "审计日志",
@@ -2005,7 +2005,7 @@ I18N.th["settings-menu"] = { // 设置 - 公共部分
         "Pages": "GitHub Pages",
         "Saved replies": "快捷回复",
 
-        // "Security": "安全",
+        // "Security": "ความปลอดภัย",
         "Code security and analysis": "代码安全性与分析",
 
         "Integrations": "集成",
@@ -2064,7 +2064,7 @@ I18N.th["orgs-settings-menu"] = { // 组织设置 公共部分
             "Packages": "软件包",
             "Projects": "项目",
 
-            "Security": "安全",
+            "Security": "ความปลอดภัย",
             "Authentication security": "身份验证安全",
             "Code security and analysis": "代码安全性与分析",
             "Verified and approved domains": "经验证和批准的域名",
@@ -5051,7 +5051,7 @@ I18N.th["repository-public"] = { // 仓库 - 公共部分
             "Discussions": "讨论",
             "Actions": "操作",
             "Projects": "项目",
-            "Security": "安全",
+            "Security": "ความปลอดภัย",
             "Insights": "洞察",
             "Settings": "设置",
 
@@ -10734,7 +10734,7 @@ I18N.th["repository-settings-menu"] = { // 仓库设置公共部分
                 "Pages": "GitHub Pages",
                 "Custom properties": "自定义属性",  // 组织仓库
 
-            // "Security": "安全",
+            // "Security": "ความปลอดภัย",
                 "Code security and analysis": "代码安全性与分析",
                 "Deploy keys": "部署密钥",
                 "Secrets and variables": "机密和变量",
@@ -17158,7 +17158,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
             "Discussions": "讨论",
             "Actions": "操作",
             "Projects": "项目",
-            "Security": "安全",
+            "Security": "ความปลอดภัย",
             "Insights": "洞察",
             "Settings": "设置",
 
