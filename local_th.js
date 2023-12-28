@@ -5279,7 +5279,7 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
 
                 "License:": "ใบอนุญาต：",
                     "License": "ใบอนุญาต",
-
+            "Grant your Marketplace apps access to this repository":"ให้สิทธิ์แอป Marketplace ของคุณเข้าถึง repository นี้",
             "You are creating a public repository in your personal account.": "คุณกำลังสร้าง Repository สาธารณะในบัญชีส่วนตัวของคุณ",
             "You are creating a private repository in your personal account.": "คุณกำลังสร้าง Repository ส่วนตัวในบัญชีส่วนตัวของคุณ",
 
@@ -5291,7 +5291,7 @@ I18N.th["page-new-repo"] = {// 仓库 - 新建/导入/复刻仓库
 
             "Create repository": "สร้าง Repository",
             "Creating repository…": "กำลังสร้าง Repository…",
-            "Grant your Marketplace apps access to this repository":"ให้สิทธิ์แอป Marketplace ของคุณเข้าถึง repository นี้",
+            
 
         // 依据模板新建仓库 https://github.com/new?template_owner=<template-owner>&template_name=<template-name>
             "Repository template": "เทมเพลต Repository",
