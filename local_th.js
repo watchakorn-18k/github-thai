@@ -74,7 +74,7 @@ I18N.th["title"] = {
         "Blocked users": "拉黑用户",
         "Temporary interaction limits": "临时互动限制",
         "Code review limits": "代码审查限制",
-        "Repositorys": "仓库",
+        "Repositorys": "Repository",
         "Deleted Packages": "删除的软件包",
         "Pages": "GitHub 页面",
         "Saved replies": "快捷回复",
@@ -96,8 +96,8 @@ I18N.th["title"] = {
         "Confirm access": "授权访问",
         "General": "通常",
         "Manage access": "访问管理",
-        "Branches": "分支",
-        "Tags": "标签",
+        "Branches": "แขนง",
+        "Tags": "แท็ก",
         "Webhooks": "Web 钩子",
         "Environments": "环境",
         "Code security & analysis": "代码安全性与分析",
@@ -127,16 +127,16 @@ I18N.th["title"] = {
         "Your starred topics": "我的星标主题",
         "Pull Requests": "ดึงคำขอ",
         "Register for the GitHub Developer Program": "注册 GitHub 开发者计划",
-        "Codespaces": "代码空间",
+        "Codespaces": "โค้ดสเปซ",
         "Codespace Templates": "代码空间模版",
         "Create new codespace": "创建代码空间",
     },
     "regexp": [ // 正则翻译
-        [/Repositories/, "仓库"],
+        [/Repositories/, "Repository"],
         [/Starred/, "星标页面"],
         [/starred repositories/, "星标仓库"],
         [/starred topics/, "星标主题"],
-        [/starred/, "星标"],
+        [/starred/, "ติดดาวแล้ว"],
         [/Commits/, "提交"],
         [/New Issue/, "新建议题"],
         [/Issues/, "议题"],
@@ -145,7 +145,7 @@ I18N.th["title"] = {
         [/Projects/, "โปรเจกต์"],
         [/Packages/, "软件包"],
         [/Security Overview/, "安全概述"],
-        [/Security Policy/, "安全政策"],
+        [/Security Policy/, "นโยบายความปลอดภัย"],
         [/Security Advisories/, "安全公告"],
         [/Dependabot alerts/, "Dependabot 警报"],
         [/Pulse/, "统计"],
@@ -159,7 +159,7 @@ I18N.th["title"] = {
         [/Network Graph/, "网络图"],
         [/Revisions/, "修订"],
         [/Stargazers/, "追星者"],
-        [/Forks/, "复刻"],
+        [/Forks/, "แยก"],
         [/Draft Advisory/, "安全公告草案"],
         [/Code scanning alerts/, "代码扫描警报"],
         [/Repository topics/, "仓库主题"],
@@ -213,25 +213,25 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Jump to": "跳转到",
 
         // 顶部栏 & 小屏左上角下拉栏 (已登录)
-        "Dashboard": "仪表板",
+        "Dashboard": "แดชบอร์ด",
         //"Pull requests": "ดึงคำขอ"  // 使用 Selector 规则翻译
-        "Issues": "议题",
-        "Marketplace": "应用市场",
-        "Explore": "探索",
-        "Give new navigation feedback": "提供新导航的反馈",
-        "Codespaces": "代码空间",
-        "Sponsors": "赞助",
+        "Issues": "ปัญหา",
+        "Marketplace": "มาร์เก็ตเพลส",
+        "Explore": "สำรวจ",
+        "Give new navigation feedback": "ให้ข้อเสนอแนะเกี่ยวกับตัวนำทางใหม่",
+        "Codespaces": "โค้ดสเปซ",
+        "Sponsors": "ผู้สนับสนุน",
 
-        "Overview": "概况",
-        "Repositories": "仓库",
+        "Overview": "ภาพรวม",
+        "Repositories": "Repository",
         "Projects": "โปรเจกต์",
-        "Packages": "软件包",
-        "Sponsoring": "赞助",
+        "Packages": "แพ็กเกจ",
+        "Sponsoring": "ผู้สนับสนุน",
 
         // 新版全局导航 按钮菜单
-        "Home": "主页",
-        "Filter repositories": "筛选仓库",
-        "Show more": "显示更多",
+        "Home": "หน้าแรก",
+        "Filter repositories": "กรอง repository",
+        "Show more": "แสดงเพิ่มเติม",
 
         //顶部提示横幅
         "Don't get locked out of your account.": "不要被锁定在您的帐户之外。",
@@ -240,8 +240,9 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "so you don't lose access when you get a new device.": "这样您在登录新设备时就不会失去访问权限。",
 
         // 右上角通知按钮提示
-        "You have no unread notifications": "您没有未读通知",
-        "You have unread notifications": "您有未读通知",
+        "You have no unread notifications": "คุณไม่มีการแจ้งเตือนที่ยังไม่ได้อ่าน",
+        "You have unread notifications": "คุณมีการแจ้งเตือนที่ยังไม่ได้อ่าน",
+        "Additional navigation options": "ตัวเลือกตัวนำทางเพิ่มเติม",
 
         // 右上角新建按钮下拉菜单
         "New repository": "สร้าง Repository ใหม่",
@@ -254,8 +255,8 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "New team": "สร้างทีมใหม่", // 组织
 
         // 新版全局导航
-        "Command palette": "命令面板",
-        "Create new...": "新建...",
+        "Command palette": "แผงคำสั่ง",
+        "Create new...": "สร้างใหม่...",
 
         // 右上角个人图标下拉菜单
         "Signed in as": "登录身份为",
@@ -318,7 +319,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "GitHub Support": "GitHub 支持", // 新版全局导航
         "Sign out": "退出",
 
-        "Stars": "星标",
+        "Stars": "ดาว",
 
 
         "Prev": "上一页",
@@ -348,8 +349,8 @@ I18N.th["pubilc"] = { // 公共区域翻译
         // [/Only members of ([^ ]+) will be able to see your status./, "只有 $1 的成员才能看到您的状态。"],
         "Keep this status until you clear your status or edit your status.": "保持此状态直到您清除或编辑您的状态。",
         "in 30 minutes": "30 分钟",
-        "in 1 hour": "1 小时",
-        "in 4 hours": "4 小时",
+        "in 1 hour": "1 ชั่วโมง",
+        "in 4 hours": "4 ชั่วโมง",
         "today": "今天",
         "this week": "本周",
         "Filter emoji": "筛选表情符号",
@@ -362,7 +363,8 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Status": "สถานะ",
         "Docs": "เอกสาร",
         "Contact": "ติดต่อเรา",
-        "Manage cookies": "จัดการ Cookies",
+        "Manage cookies": "จัดการคุกกี้",
+        "Manage Cookies": "จัดการคุกกี้",
         "Do not share my personal information": "อย่าเปิดเผยข้อมูลส่วนบุคคลของฉัน",
 
         "Contact GitHub": "ติดต่อ GitHub",
@@ -494,17 +496,17 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "discussion": "การสนทนา", // 新建讨论
         "discussions": "การสนทนา", // 新建讨论
 
-        "Add to list": "添加到清单",
-        "You don't have any lists yet.": "您尚无任何清单。",
-        "Lists": "清单",
-        "Search lists": "搜索清单",
-        "Create list": "创建清单",
-        "Create a list to organize your starred repositories.": "创建一个清单来组织您的星标仓库。",
-        "⭐️ Name this list": "⭐️ 清单名称",
-        "Write a description": "简单描述",
-        "Lists are currently in beta.": "清单目前处于测试阶段。",
-        "Share feedback and report bugs.": "分享反馈意见和报告错误。",
-        "Creating...": "创建中...",
+        "Add to list": "เพิ่มไปยังรายการ",
+        "You don't have any lists yet.": "คุณยังไม่มีรายการใดเลย",
+        "Lists": "รายการ",
+        "Search lists": "ค้นหารายการ",
+        "Create list": "สร้างรายการใหม่",
+        "Create a list to organize your starred repositories.": "สร้างรายการเพื่อจัดระเบียบ repository ที่คุณติดดาว",
+        "⭐️ Name this list": "⭐️ ตั้งชื่อรายการนี้",
+        "Write a description": "เขียนคำอธิบาย",
+        "Lists are currently in beta.": "ขณะนี้รายการอยู่ในรุ่นเบต้า",
+        "Share feedback and report bugs.": "แบ่งปันความคิดเห็นและรายงานข้อบกพร่อง",
+        "Creating...": "กำลังสร้าง...",
 
         // 全局快捷键对话框 - 快捷键 ? 打开
         "Keyboard shortcuts": "键盘快捷键",
@@ -526,7 +528,9 @@ I18N.th["pubilc"] = { // 公共区域翻译
 
         // 命令面板 - ctrl k 或 ctrl alt k 打开
         "Clear Command Palette": "清除命令面板",
-        "Tip:": "小贴士：",
+        "Tip:": "เคล็ดลับ：",
+        "type": "พิมพ์",
+        "to add emoji to the name or description.": "เพิ่มอิโมจิให้กับชื่อหรือคำอธิบายได้",
         "Go to your accessibility settings to change your keyboard shortcuts": "跳转到您的无障碍设置，以更改您的键盘快捷键",
         "to search discussions": "搜索讨论", // 键入 #
         "to search issues": "搜索议题", // 键入 #
@@ -539,7 +543,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Type is:pr to filter to pull requests": "键入 is:pr 以筛选拉取请求",
         "Type is:open to filter to open content": "键入 is:open 以筛选打开的内容",
         "Type author:@me to search your content": "键入 author:@me 以筛选您的内容",
-        "Type": "请键入",
+        "Type": "พิมพ์",
         "for help and tips": "寻求帮助和提示", // 键入 ?
 
         "Search or jump to...": "搜索或跳转到…",
@@ -560,7 +564,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Users": "用户",
         "Saved queries": "已保存的搜索",
         "to jump to": "去跳转",
-        "to search": "去搜索",
+        "to search": "เพื่อค้นหา",
 
         "Top result": "最佳结果",
         "No results matched your search": "没有与您的搜索相符的结果",
@@ -632,7 +636,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "issues": "议题",
         "pull requests": "ดึงคำขอ",
         "organizations": "组织",
-        "repositories": "仓库",
+        "repositories": "Repository",
         "users": "用户",
         "Activate": "激活",
         "command mode": "命令模式",
@@ -653,12 +657,12 @@ I18N.th["pubilc"] = { // 公共区域翻译
 
         // 公共词 高频词
         "Followers": "关注者",
-        "Follow": "关注",
-        "Unfollow": "取消关注",
-        "Star": "星标",
-        // "Unstar": "已加星标",
-        "Starred": "已加星标",
-        "Fork": "复刻",
+        "Follow": "จับตาดู",
+        "Unfollow": "ยกเลิกจับตาดู",
+        "Star": "ดาว",
+        // "Unstar": "ยกเลิกติดดาว",
+        "Starred": "ติดดาวแล้ว",
+        "Fork": "แยก",
         "Save": "保存",
         "Saving…": "保存中…",
         "Updating": "更新中",
@@ -674,7 +678,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Give feedback": "反馈",
         "Give us your feedback": "向我们提供反馈意见",
         "Download": "下载",
-        "Create": "创建",
+        "Create": "สร้าง",
 
         "and": "和",
         ", and": "，和",
@@ -692,25 +696,25 @@ I18N.th["pubilc"] = { // 公共区域翻译
 
         // 名词
         "Public": "สาธารณะ",
-        "Private": "私有",
-        "Public archive": "公共存档",
-        "Private archive": "私有存档",
-        "Public template": "公共模板",
+        "Private": "ส่วนตัว",
+        "Public archive": "ที่เก็บถาวรสาธารณะ",
+        "Private archive": "ที่เก็บถาวรส่วนตัว",
+        "Public template": "แม่แบบสาธารณะ",
         "Code": "โค้ด",
         "Pull requests": "ดึงคำขอ",
-        "Collaborators": "协作者",
-        "collaborators": "协作者",
-        "commit": "提交",
-        "commits": "提交",
-        "Organization": "组织",
-        "People": "成员",
-        "Teams": "团队",
+        "Collaborators": "ผู้ทำงานร่วมกัน",
+        "collaborators": "ผู้ทำงานร่วมกัน",
+        "commit": "การบันทึก",
+        "commits": "การบันทึก",
+        "Organization": "องค์กร",
+        "People": "ผู้คน",
+        "Teams": "ทีม",
 
         // 相对时间
-        "just now": "刚刚",
-        "now": "当前",
-        "yesterday": "昨天",
-        "last month": "上个月",
+        "just now": "เมื่อกี้",
+        "now": "ตอนนี้",
+        "yesterday": "เมื่อวาน",
+        "last month": "เดือนที่แล้ว",
 
         // 状态词
         "Verified": "已验证",
@@ -871,34 +875,34 @@ I18N.th["pubilc"] = { // 公共区域翻译
          */
         [/^just now|^now|^last month|^yesterday|(?:(over|about|almost|in) |)(an?|\d+)(?: |)(second|minute|hour|day|month|year)s?( ago|)/, function (all, prefix, count, unit, suffix) {
             if (all === 'now') {
-                return '现在';
+                return 'ตอนนี้';
             }
             if (all === 'just now') {
-                return '刚刚';
+                return 'เมื่อกี้';
             }
             if (all === 'last month') {
-                return '上个月';
+                return 'เดือนที่แล้ว';
             }
             if (all === 'yesterday') {
-                return '昨天';
+                return 'เมื่อวาน';
             }
             if (count[0] === 'a') {
                 count = '1';
             } // a, an 修改为 1
 
             var unitKey = {
-                second: '秒',
-                minute: '分钟',
-                hour: '小时',
-                day: '天',
-                month: '个月',
-                year: '年'
+                second: 'วินาที',
+                minute: 'นาที',
+                hour: 'ชั่วโมง',
+                day: 'วัน',
+                month: 'เดือน',
+                year: 'ปี'
             };
 
             if (suffix) {
-                return (prefix === 'about' || prefix === 'almost' ? '大约 ' : prefix === 'less than' ? '不到 ' : '') + count + ' ' + unitKey[unit] + (prefix === 'over' ? '多之前' : '之前');
+                return (prefix === 'about' || prefix === 'almost' ? 'เกือบ ' : prefix === 'less than' ? 'น้อยกว่า ' : '') + count + ' ' + unitKey[unit] + (prefix === 'over' ? 'หลายปีที่ก่อน' : 'ก่อน');
             } else {
-                return count + ' ' + unitKey[unit] + (prefix === 'in' ? '之内' : '之前');
+                return count + ' ' + unitKey[unit] + (prefix === 'in' ? 'ภายใน' : 'ก่อน');
             }
         }],
         /**
@@ -908,7 +912,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
          */
         [/^(?:(in) |)(?:(\d+)m |)(\d+)s/, function (all, prefix, minute, second) {
             all = minute ? minute + '分' + second + '秒' : second + '秒';
-            return (prefix ? all + '之内' : all);
+            return (prefix ? all + 'ภายใน' : all);
         }],
         [/Only members of ([^ ]+) will be able to see your status./, "只有 $1 的成员才能看到您的状态。"],
     ],
@@ -995,52 +999,52 @@ I18N.th["pubilc"] = { // 公共区域翻译
          */
         [/^just now|^now|^last year|^last month|^last week|^yesterday|(?:(over|about|almost|in) |)(an?|\d+)(?: |)(second|minute|hour|day|month|year|week)s?( ago|)/, function (all, prefix, count, unit, suffix) {
             if (all === 'now') {
-                return '现在';
+                return 'ตอนนี้';
             }
             if (all === 'just now') {
-                return '刚刚';
+                return 'เมื่อกี้';
             }
             if (all === 'last year') {
-                return '最近 1 年';
+                return 'ปีที่แล้ว';
             }
             if (all === 'last month') {
-                return '上个月';
+                return 'เดือนที่แล้ว';
             }
             if (all === 'last week') {
-                return '上周';
+                return 'สัปดาห์ที่แล้ว';
             }
             if (all === 'yesterday') {
-                return '昨天';
+                return 'เมื่อวาน';
             }
             if (count[0] === 'a') {
                 count = '1';
             } // a, an 修改为 1
 
             var unitKey = {
-                second: '秒',
-                minute: '分钟',
-                hour: '小时',
-                day: '天',
-                month: '个月',
-                year: '年',
-                week: '周'
+                second: 'วินาที',
+                minute: 'นาที',
+                hour: 'ชั่วโมง',
+                day: 'วัน',
+                month: 'เดือน',
+                year: 'ปี',
+                week: 'สัปดาห์'
             };
 
             if (suffix) {
-                return (prefix === 'about' || prefix === 'almost' ? '大约 ' : prefix === 'less than' ? '不到 ' : '') + count + ' ' + unitKey[unit] + (prefix === 'over' ? '多之前' : '之前');
+                return (prefix === 'about' || prefix === 'almost' ? 'เกือบ ' : prefix === 'less than' ? 'น้อยกว่า ' : '') + count + ' ' + unitKey[unit] + (prefix === 'over' ? 'หลายปีก่อน' : 'ก่อน');
             } else {
-                return count + ' ' + unitKey[unit] + (prefix === 'in' ? '之内' : '之前');
+                return count + ' ' + unitKey[unit] + (prefix === 'in' ? 'ภายใน' : 'ก่อน');
             }
         }],
         [/(\d+)(h|d|w|m)/, function (all, count, suffix) {
             var suffixKey = {
-                h: '小时',
-                d: '天',
-                w: '周',
-                m: '个月'
+                h: 'ชั่วโมง',
+                d: 'วัน',
+                w: 'สัปดาห์',
+                m: 'เดือน'
             };
 
-            return count + ' ' + suffixKey[suffix] + '之前';
+            return count + ' ' + suffixKey[suffix] + 'ก่อน';
         }],
     ],
     "selector": [ // 元素筛选器规则
@@ -1078,17 +1082,17 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
 
         // 已有仓库的项目
         // 左侧栏
-        "View organization": "查看组织", // 组织
-        "Browse organization's repositories": "浏览组织的仓库", // 组织
-        "Top Repositories": "置顶仓库",
-        "New": "新建",
-        "Find a repository…": "搜索仓库…",
-        "Show more": "显示更多",
-        "Your teams": "您的团队",
-        "You don’t belong to any teams yet!": "您还不属于任何团队！",
-        "Find a team…": "搜索团队…",
-        "Recent activity": "近期活动",
-        "When you take actions across GitHub, we’ll provide links to that activity here.": "当您在 GitHub 上采取行动时，我们会在这里提供该活动的链接。", // 组织
+        "View organization": "ดูองค์กร", // 组织
+        "Browse organization's repositories": "เรียกดู repository ขององค์กร", // 组织
+        "Top Repositories": "Repository ยอดนิยม",
+        "New": "ใหม่",
+        "Find a repository…": "ค้นหา repository…",
+        "Show more": "แสดงเพิ่มเติม",
+        "Your teams": "ทีมของคุณ",
+        "You don’t belong to any teams yet!": "คุณยังไม่ได้เป็นส่วนหนึ่งของทีมใดเลย!",
+        "Find a team…": "ค้นหาทีมของคุณ…",
+        "Recent activity": "กิจกรรมล่าสุด",
+        "When you take actions across GitHub, we’ll provide links to that activity here.": "เมื่อคุณดำเนินการกับ GitHub เราจะให้ลิงก์ไปยังกิจกรรมนั้นที่นี่", // 组织
 
         // 中间栏
         "The home for all developers — including you.": "所有开发者的家园--包括您。",
@@ -1124,30 +1128,30 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
 
         "Welcome to the new feed!": "欢迎来到新的动态提要!",
         "We’re updating the cards and ranking all the time, so check back regularly. At first, you might need to follow some people or star some repositories to get started": "我们一直在更新卡片和排名，所以请定期查看。一开始，您可能需要关注一些人或标星一些仓库才能开始",
-        "Send feedback": "发送反馈",
+        "Send feedback": "ส่งความคิดเห็น",
 
         "Updates to your homepage feed": "主页动态摘要的更新",
         "We've combined the power of the Following feed with the For you feed so there’s one place to discover content on GitHub. There’s improved filtering so you can customize your feed exactly how you like it, and a shiny new visual design. ✨": "我们将 “关注动态提要” 与 “您的动态提要” 的强大功能结合在一起，让您在一个地方就能发现 GitHub 上的内容。此外，我们还改进了筛选功能，让您可以完全按照自己的喜好定制动态提要，并采用全新的视觉设计。 ✨",
         "Learn more": "了解更多",
 
         // 提要筛选
-        "Filter": "筛选器",
+        "Filter": "การกรอง",
         "Feed filters": "提要筛选器",
         "Events": "事件",
         "Activity you want to see on your feed": "您想在提要上看到的活动",
         "Announcements": "公告",
         "Special discussion posts from repositories": "来自仓库的特别讨论帖",
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         "Update posts from repositories": "来自仓库的更新帖",
         // 赞助
         "Relevant projects or people that are being sponsored": "获得赞助的相关项目或人员",
-        "Stars": "星标",
+        "Stars": "ดาว",
         "Repositories being starred by people": "被人们标星的仓库",
-        "Repositories": "仓库",
+        "Repositories": "Repository",
         "Repositories that are created or forked by people": "由人们创建或复刻的仓库",
         "Repository activity": "仓库活动",
         "Issues and pull requests from repositories": "来自仓库的议题和拉取请求",
-        "Follows": "关注",
+        "Follows": "จับตาดู",
         "Who people are following": "人们在关注谁",
         "Recommendations": "推荐",
         "Repositories and people you may like": "您可能喜欢的仓库和人",
@@ -1173,8 +1177,8 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
         "from": "来自",
         "for": "",
         "pushed to": "推送到",
-        "released": "发布了",
-        "published": "发布了",
+        "released": "เผยแพร่แล้ว",
+        "published": "การเผยแพร่",
         "started sponsoring": "赞助给",
         "started following": "开始关注了",
         "you": "您",
@@ -1204,7 +1208,7 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
 
         "your repository": "您的仓库",
 
-        "Read more": "阅读更多内容",
+        "Read more": "อ่านเพิ่มเติม",
 
         "More": "更多",
         "Loading more…": "载入更多…",
@@ -1223,30 +1227,30 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
         "Unfollow this user": "取消关注此用户",
 
         "Contributors": "贡献者",
-        "Report": "举报",
-        "Recommended for you": "为您推荐",
-        "Trending repositories": "热门仓库",
-        "See more": "查看更多",
+        "Report": "รายงาน",
+        "Recommended for you": "แนะนำสำหรับคุณ",
+        "Trending repositories": "Repository กำลังมาแรง",
+        "See more": "ดูเพิ่มเติม",
         "You're seeing this based on GitHub-wide trends.": "您看到的是基于 GitHub-wide 的趋势。",
         "Recommended based on people you follow": "根据您关注的人推荐",
         "has a new discussion in": "有一条新讨论，在",
         "Join discussion": "参与讨论",
         "Popular among": "很受欢迎",
         "people you follow": "在您关注的人中",
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
 
         // 右侧栏
-        "Latest changes": "最新变化",
-        "View changelog →": "查看更新日志 →",
-        "Explore repositories": "探索仓库",
-        "Explore more →": "探索更多 →",
+        "Latest changes": "การเปลี่ยนแปลงล่าสุด",
+        "View changelog →": "ดูบันทึกการเปลี่ยนแปลง →",
+        "Explore repositories": "สำรวจ repository",
+        "Explore more →": "สำรวจเพิ่มเติม →",
 
-        "Member statuses": "成员状态", // 组织
+        "Member statuses": "สถานะสมาชิก", // 组织
 
         // Learning Pathways看板
-        "Learn from the best": "向最优秀的人学习",
-        "Unlock the full power of GitHub! Gain expertise and insights from top organizations through guided tutorials, boosting productivity, enhancing security, and enabling seamless collaboration.": "释放 GitHub 的全部力量！通过指导教程获得顶级组织的专业知识和见解，提高生产力、增强安全性并实现无缝协作。",
-        "Start learning": "开始学习",
+        "Learn from the best": "เรียนรู้จากสิ่งที่ดีที่สุด",
+        "Unlock the full power of GitHub! Gain expertise and insights from top organizations through guided tutorials, boosting productivity, enhancing security, and enabling seamless collaboration.": "ปลดล็อกพลังเต็มรูปแบบของ GitHub! รับความเชี่ยวชาญและข้อมูลเชิงลึกจากองค์กรชั้นนำผ่านบทช่วยสอนพร้อมคำแนะนำ เพิ่มประสิทธิภาพการทำงาน ปรับปรุงความปลอดภัย และเปิดใช้งานการทำงานร่วมกันอย่างราบรื่น",
+        "Start learning": "เริ่มเรียนรู้",
 
         // 用户 浮动信息卡
         "Member of": "隶属组织",
@@ -1269,7 +1273,7 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
         "After you switch contexts you’ll see an organization-focused dashboard that lists out organization repositories and activities.": "当您切换身份，您会看到一个组织为中心的页面，其中列出了组织库和活动。",
 
         // 快捷键
-        "Dashboards": "仪表板",
+        "Dashboards": "แดชบอร์ด",
         "Go to your issues": "跳转到您的议题",
         "Go to your pull requests": "跳转到您的拉取请求",
     },
@@ -1280,11 +1284,11 @@ I18N.th["page-dashboard"] = { // 已登录的首页 - 仪表板（含组织）
         [/(\d+) members?/, "$1 个成员"], // 组织  浮动信息卡
         [/is being deleted./, "正在被删除。"], // 仓库 组织被删除
         [/Your repository \"([^ ]+)\" was successfully deleted./, "您的仓库 “$1” 已成功删除。"], // 仓库删除
-        [/(\d+) releases?/, "$1 个发行版"],
-        [/(\d+) followers?/, "$1 个关注者"],
-        [/(\d+) comments?/, "$1 条评论"],
-        [/(\d+) commits? to/, "$1 个提交到"],
-        [/(\d+) more commits? »/, "$1 个更多提交到"],
+        [/(\d+) releases?/, "$1 การเผยแพร่"],
+        [/(\d+) followers?/, "$1 ผู้ที่ติดตาม"],
+        [/(\d+) comments?/, "$1 ความคิดเห็น"],
+        [/(\d+) commits? to/, "$1 การบันทึก"],
+        [/(\d+) more commits? »/, "$1 การบันทึกเพิ่มเติม"],
         [/(\d+) issues? needs? help/, "$1 个议题需要帮助"],
         // [/Updated/, "更新于"],
         [/You’re an owner of the ([^ ]+) organization!/, "您是 $1 组织的所有者！"], // 组织
@@ -1314,11 +1318,11 @@ I18N.th["page-profile-public"] = { // 个人首页（含组织）
         "she/her": "她",
         "he/him": "他",
         "You have blocked this user": "您已拉黑此用户",
-        "Follow": "关注",
-        "Sponsor": "赞助",
+        "Follow": "จับตาดู",
+        "Sponsor": "ผู้สนับสนุน",
         "follower": "关注者",
         "followers": "关注者",
-        "following": "关注",
+        "following": "จับตาดู",
         "Joined": "加入于",
         "Achievements": "成就",
         "Highlights": "高光时刻",
@@ -1392,7 +1396,7 @@ I18N.th["page-profile"] = { // 个人首页
         "Select up to six public repositories or gists you'd like to show to anyone.": "最多选择 6 个您想向任何人展示的公共仓库或代码片段。",
         "Select up to six public repositories you'd like to show.": "最多选择 6 个要显示的公共仓库。", // 组织页
         "Filter repositories and gists": "筛选仓库和代码片段",
-        "Repositories": "仓库",
+        "Repositories": "Repository",
         "Gists": "代码片段",
         "Filter repositories": "筛选仓库", // 组织页
         "Show:": "显示：",
@@ -1439,7 +1443,7 @@ I18N.th["page-profile"] = { // 个人首页
         "merged": "已合并",
         "pull request": "ดึงคำขอ",
 
-        "commits": "次提交",
+        "commits": "การบันทึก",
         "comments": "次评论",
         "Commits": "提交",
         "Code review": "代码审查",
@@ -1457,7 +1461,7 @@ I18N.th["page-profile"] = { // 个人首页
         "Joined GitHub": "刚加入 GitHub",
         "Joined the": "加入",
         "organization": "组织",
-        //"Show more activity": "显示更多",
+        //"Show more activity": "แสดงเพิ่มเติม",
         "Show more activity": "加载更多动态",
         "Loading...": "载入中...",
 
@@ -1480,7 +1484,7 @@ I18N.th["page-profile"] = { // 个人首页
         }], // 贡献日历
         [/and (\d+) other repositor(y|ies)/, "和 $1 个其他仓库"], // 活动概览
         // 贡献信息
-        [/Created (\d+) commits? in (\d+) repositor(y|ies)/, "在 $2 个仓库中创建了 $1 次提交"],
+        [/Created (\d+) commits? in (\d+) repositor(y|ies)/, "在 $2 个仓库中创建了 $1 การบันทึก"],
         [/Created (\d+) repositor(y|ies)/, "创建了 $1 个仓库"],
         [/Opened (\d+) pull requests? in (\d+) repositor(y|ies)/, "在 $2 个仓库中打开了 $1 个拉取请求"],
         [/Opened (\d+) other pull requests? in (\d+) repositor(y|ies)/, "在 $2 个其他仓库中打开了 $1 个拉取请求"],
@@ -1489,7 +1493,7 @@ I18N.th["page-profile"] = { // 个人首页
         [/Reviewed (\d+) pull requests? in (\d+) repositor(y|ies)/, "在 $2 个仓库中审查了 $1 个拉取请求"],
         [/Answered (\d+) discussions? in (\d+) repositor(y|ies)/, "在 $2 个仓库中答复了 $1 个讨论"],
         [/Started (\d+) discussions? in (\d+) repositor(y|ies)/, "在 $2 个仓库中发起了 $1 个讨论"],
-        [/(\d+) commits?/, "$1 次提交"],
+        [/(\d+) commits?/, "$1 การบันทึก"],
         [/(\d+) pull requests?/, "$1 次拉取请求"],
         [/that received (\d+) comments?/, "收到 $1 条评论"],
         [/(\d+) of (\d+) tasks?/, "$1 / $2 个任务"],
@@ -1524,9 +1528,9 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         "Select type": "选择类型",
         "All": "全部",
         "Public": "สาธารณะ",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "Sources": "源码",
-        "Forks": "复刻",
+        "Forks": "แยก",
         "Archived": "存档",
         "Can be sponsored": "可赞助",
         "Mirrors": "镜像",
@@ -1544,15 +1548,15 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         // "Recently active": "最近活跃",
         // "Most stars": "最多星标",
         // "Unstar": "取消星标",
-        "New": "新建",
+        "New": "ใหม่",
 
         // 筛选结果
         "result for": "个结果在",
         "results for": "个结果在",
         "public": "สาธารณะ",
-        "private": "私有",
+        "private": "ส่วนตัว",
         "source": "源码",
-        "forked": "复刻",
+        "forked": "แยกแล้ว",
         "archived": "存档",
         "sponsorable": "可赞助",
         "mirror": "镜像",
@@ -1570,7 +1574,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         "sorted by": "，排序按",
         "last updated": "最近更新",
         "name": "仓库名",
-        "stars": "星标",
+        "stars": "ดาว",
 
         "Clear filter": "清除筛选",
 
@@ -1599,7 +1603,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         "Total good-first issues": "好的首发议题总数",
         "Has": "包含文件",
         "Total help-wanted issues": "求助议题总数",
-        "License": "许可证",
+        "License": "ใบอนุญาต",
         "Mirror": "镜像",
         "Size (Kb)": "大小 (Kb)",
         "Sponsorable": "可接受赞助",
@@ -1612,7 +1616,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         "Operator": "操作符",
         "is": "是",
         "is not": "不是",
-        "before": "之前",
+        "before": "ก่อน",
         "after": "之后",
         "between": "之间",
         "From": "起",
@@ -1661,7 +1665,7 @@ I18N.th["page-profile/repositories"] = { // 个人首页 - 仓库标签卡
         "Last pushed": "最近提送",
         "Ascending": "升序",
         "Descending": "降序",
-        "repository": "仓库",
+        "repository": "Repository",
         "No language": "无语言",
 
     },
@@ -1820,9 +1824,9 @@ I18N.th["page-profile/stars"] = { // 个人首页 - 星标标签卡
         "Type: Templates": "类型：模板",
         "All": "全部",
         "Public": "สาธารณะ",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "Sources": "源码",
-        "Forks": "复刻",
+        "Forks": "แยก",
         "Can be sponsored": "可赞助",
         "Mirrors": "镜像",
         "Templates": "模板",
@@ -1844,9 +1848,9 @@ I18N.th["page-profile/stars"] = { // 个人首页 - 星标标签卡
         "result for": "个结果在",
         "results for": "个结果在",
         "public": "สาธารณะ",
-        "private": "私有",
+        "private": "ส่วนตัว",
         "source": "源码",
-        "forked": "复刻",
+        "forked": "แยกแล้ว",
         "sponsorable": "可赞助",
         "archived": "存档",
         "mirror": "镜像",
@@ -1949,7 +1953,7 @@ I18N.th["settings-menu"] = { // 设置 - 公共部分
         "Code review limits": "代码审查限制",
 
         "Code, planning, and automation": "代码、规划和自动化",
-        // "Repository": "仓库"
+        // "Repository": "Repository"
         "Packages": "软件包",
         "Copilot": "GitHub Copilot",
         "Pages": "GitHub Pages",
@@ -1996,13 +2000,13 @@ I18N.th["orgs-settings-menu"] = { // 组织设置 公共部分
         "Moderators": "版主",
 
         "Code, planning, and automation": "代码、规划和自动化",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Repository defaults": "仓库默认值",
         "Repository topics": "仓库主题",
         "Repository rulesets": "仓库规则集",
         "Repository rule insights": "仓库规则洞察",
         "Custom properties": "自定义属性",
-        "Codespaces": "代码空间",
+        "Codespaces": "โค้ดสเปซ",
         "Copilot": "GitHub Copilot",
         "Access": "访问",
         "Policies and features": "政策和功能",
@@ -2532,7 +2536,7 @@ I18N.th["settings/billing"] = { // 设置 - 账单和计划
         // 代码空间
         "Usage hours": "使用小时数",
         "Core hours are calculated by multiplying the compute types by their per-hour rates, which can vary": "核心小时数是通过将计算类型乘以其每小时费率来计算的，该费率可能会有所不同",
-        "Price / hour": "单价 / 小时",
+        "Price / hour": "ราคา / ชม",
         "2-core": "双核",
         "4-core": "四核",
         "8-core": "八核",
@@ -3165,7 +3169,7 @@ I18N.th["settings/sessions"] = {
         "and sign in to your account.": "并登录您的帐户。",
 
         "This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.": "这是已登录您帐户的设备列表。 撤销任何您不认识的会话。",
-        "See more": "查看更多",
+        "See more": "ดูเพิ่มเติม",
         "Your current session": "您当前的会话",
         "Last accessed on": "最后访问日期：",
 
@@ -3377,7 +3381,7 @@ I18N.th["settings/interaction_limits"] = { // 设置 - 互动限制
         "Collaborators": "协作者",
         // 交互限制时间 下拉菜单
         "Enable interaction limits for:": "启用交互限制：",
-        "24 hours": "24 小时",
+        "24 hours": "24 ชั่วโมง",
         "3 days": "3 天",
         "1 week": "1 周",
         "1 month": "1 个月",
@@ -3564,7 +3568,7 @@ I18N.th["settings/codespaces"] = { // 设置 - 代码空间
 
         "Repository access": "仓库权限",
         "Available to": "适用于",
-        "repository": "仓库",
+        "repository": "Repository",
         "This secret will not be active until at least 1 repository is selected.": "至少选择 1 个仓库，否则此密钥不会处于活动状态。",
 
         // 编辑机密 https://github.com/settings/codespaces/secrets/<机密名称>/edit
@@ -3596,7 +3600,7 @@ I18N.th["settings/packages"] = { // 设置 - 软件包
         "Members will be able to publish only the selected visibility types for packages and containers. Outside collaborators can never publish packages or containers.": "成员只能发布选定可见性类型的软件包和容器。外部协作者永远不能发布软件包或容器。",
         "Public": "สาธารณะ",
         "Members will be able to create public packages, visible to anyone.": "成员将能够创建公共包，对任何人都可见。",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "Members will be able to create private packages, visible to organization members with permission.": "成员将能够创建私有包，对具有权限的组织成员可见。",
         "Internal": "内部",
         "Members will be able to create internal packages, visible to all organization/enterprise members.": "成员将能够创建内部包，对所有组织/企业成员可见。",
@@ -4124,7 +4128,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Checks on code.": "检查代码。",
         "Code scanning alerts": "代码扫描警报",
         "View and manage code scanning alerts.": "查看和管理代码扫描警报。",
-        // "": "代码空间",
+        // "": "โค้ดสเปซ",
         "Create, edit, delete and list Codespaces.": "创建、编辑、删除和列出代码空间。",
         "Codespaces lifecycle admin": "代码空间的生命周期管理",
         "Manage the lifecycle of Codespaces, including starting and stopping.": "管理代码空间的生命周期，包括启动和停止。",
@@ -4190,7 +4194,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "View custom properties, write repository values, and administer definitions.": "查看自定义属性、写入仓库值并管理定义。",
         "Custom repository roles": "自定义仓库角色",
         "Create, edit, delete and list custom repository roles.": "创建、编辑、删除和列出自定义仓库角色。",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "View events triggered by an activity in an organization.": "查看组织中某项活动所触发的事件。",
         "GitHub Copilot Business": "GitHub Copilot 商业版",
         "Manage Copilot Business seats and settings": "管理 GitHub Copilot 商业版席位和设置",
@@ -4249,9 +4253,9 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Manage a user's profile settings.": "管理用户的个人信息设置。",
         "SSH signing keys": "SSH 签名密钥",
         "View and manage a user's SSH signing keys.": "查看和管理用户的 SSH 签名密钥。",
-        "Starring": "星标",
+        "Starring": "กำลังติดดาว",
         "List and manage repositories a user is starring.": "列出和管理用户已加星标的仓库。",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
         "List and change repositories a user is subscribed to.": "列出和更改用户订阅的仓库。",
 
         // 以下的事件 与 钩子页面 一致
@@ -4276,7 +4280,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Check suite is requested, rerequested, or completed.": "检查套件的请求、重新请求或完成。",
         "Commit comment": "提交评论",
         "Commit or diff commented on.": "提交或差异评论。",
-        //"创建": "",
+        //"สร้าง": "",
         "Branch or tag created.": "分支或标签的创建。",
         "Custom property": "自定义属性",
         "Custom property is created, updated, or deleted.": "自定义属性的创建、更新或删除。",
@@ -4300,7 +4304,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Deployment review requested, approved or rejected": "部署审查的请求、批准或拒绝",
         "Deployment status": "部署状态",
         "Deployment status updated from the API.": "通过 API 更新部署状态。",
-        //"复刻": "",
+        //"แยก": "",
         "Repository forked.": "仓库复刻。",
         "Gollum": "咕噜",
         "Wiki page updated.": "Wiki 页面的更新。",
@@ -4308,7 +4312,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Issue comment created, edited, or deleted.": "议题评论的创建、编辑或删除。",
         //"议题": "",
         "Issue opened, edited, deleted, transferred, pinned, unpinned, closed, reopened, assigned, unassigned, labeled, unlabeled, milestoned, demilestoned, locked, or unlocked.": "议题的打开、编辑、删除、转移、置顶、取消置顶、关闭、重新打开、分配、取消分配、标记、取消标记、设置里程碑、取消里程碑、锁定或解锁。",
-        "Label": "标签",
+        "Label": "แท็ก",
         "Label created, edited or deleted.": "标签的创建、编辑或删除。",
         "Milestone": "里程碑",
         "Milestone created, closed, opened, edited, or deleted.": "里程碑的创建、关闭、打开、编辑或删除。",
@@ -4350,9 +4354,9 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Git push to a repository.": "Git 推送到仓库。",
         "Registry package": "注册软件包",
         "Registry package published or updated in a repository.": "仓库中注册软件包的发布或更新。",
-        "Release": "发行版",
+        "Release": "การเผยแพร่",
         "Release created, edited, published, unpublished, or deleted.": "发行版的创建、编辑、发布、取消发布或删除。",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Repository created, deleted, archived, unarchived, publicized, privatized, edited, renamed, or transferred.": "仓库的创建、删除、归档、取消归档、公开、私有化、编辑、重命名或转让。",
         "Repository dispatch": "仓库调度",
         "When a message is dispatched from a repository.": "当信息从仓库发出时。",
@@ -4372,7 +4376,7 @@ I18N.th["settings/apps"] = { // 设置 - 开发者设置/GitHub 应用
         "Team is created, deleted, edited, or added to/removed from a repository.": "团队的创建、删除、编辑以及向仓库添加团队、从仓库中移除团队。",
         "Team add": "团队添加",
         "Team added or modified on a repository.": "仓库团队的添加或修改。",
-        "Watch": "关注",
+        "Watch": "จับตาดู",
         "User stars a repository.": "用户星标仓库。",
         "Workflow dispatch": "工作流程调度",
         "A manual workflow run is requested.": "请求手动运行工作流程。",
@@ -4693,7 +4697,7 @@ I18N.th["settings/tokens"] = { // 设置 - 开发者设置/个人访问令牌
         "Checks on code.": "检查代码。",
         "Code scanning alerts": "代码扫描警报",
         "View and manage code scanning alerts.": "查看和管理代码扫描警报。",
-        // "": "代码空间",
+        // "": "โค้ดสเปซ",
         "Create, edit, delete and list Codespaces.": "创建、编辑、删除和列出代码空间。",
         "Codespaces lifecycle admin": "代码空间的生命周期管理",
         "Manage the lifecycle of Codespaces, including starting and stopping.": "管理代码空间的生命周期，包括启动和停止。",
@@ -4768,9 +4772,9 @@ I18N.th["settings/tokens"] = { // 设置 - 开发者设置/个人访问令牌
         "Manage a user's profile settings.": "管理用户的个人信息设置。",
         "SSH signing keys": "SSH 签名密钥",
         "View and manage a user's SSH signing keys.": "查看和管理用户的 SSH 签名密钥。",
-        "Starring": "星标",
+        "Starring": "การติดดาว",
         "List and manage repositories a user is starring.": "列出和管理用户已加星标的仓库。",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
         "List and change repositories a user is subscribed to.": "列出和更改用户订阅的仓库。",
 
         "Organization permissions": "组织权限",
@@ -4784,7 +4788,7 @@ I18N.th["settings/tokens"] = { // 设置 - 开发者设置/个人访问令牌
         "View custom properties, write repository values, and administer definitions.": "查看自定义属性、写入仓库值并管理定义。",
         "Custom repository roles": "自定义仓库角色",
         "Create, edit, delete and list custom repository roles.": "创建、编辑、删除和列出自定义仓库角色。",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "View events triggered by an activity in an organization.": "查看组织中某项活动所触发的事件。",
         "GitHub Copilot for Business": "GitHub Copilot 商业版",
         "Manage Copilot for Business seats and settings": "管理 GitHub Copilot 商业版席位和设置",
@@ -5045,8 +5049,8 @@ I18N.th["repository-public"] = { // 仓库 - 公共部分
         "Update comment": "更新评论",
         "Hide": "隐藏",
 
-        "created": "创建",
-        "edited": "编辑",
+        "created": "สร้างเมื่อ",
+        "edited": "แก้ไขเมื่อ",
         "(most recent)": "(最近的)",
         "(deleted)": "(已删除)",
         "deleted this content": "删除了该内容",
@@ -5059,27 +5063,27 @@ I18N.th["repository-public"] = { // 仓库 - 公共部分
         "This edit’s content will no longer be visible": "此修改的内容将不再可见",
 
         // 切换分支/标签 下拉菜单
-        "Switch branches/tags": "切换分支/标签",
-        "Find or create a branch…": "查找或创建分支…",
-        "Find a branch...": "查找分支...",
-        "Filter branches/tags": "搜索分支/标签",
-        "Branches": "分支",
-        "default": "默认",
-        "View all branches": "查看全部分支",
-        "Find a tag": "查找标签",
-        "Tags": "标签",
-        "Search for a tag": "搜索标签",
-        "Nothing to show": "暂无",
-        "View all tags": "查看全部标签",
+        "Switch branches/tags": "สลับแขนง/แท็ก",
+        "Find or create a branch…": "ค้นหาหรือสร้างแขนง...",
+        "Find a branch...": "ค้นหาแขนง...",
+        "Filter branches/tags": "กรองแขนง/แท็ก",
+        "Branches": "แขนง",
+        "default": "ค่าเริ่มต้น",
+        "View all branches": "ดูแขนงทั้งหมด",
+        "Find a tag": "ค้นหาแท็ก",
+        "Tags": "แท็ก",
+        "Search for a tag": "ค้นหาแท็ก",
+        "Nothing to show": "ไม่มีอะไรจะแสดง",
+        "View all tags": "ดูแท็กทั้งหมด",
 
-        "Find or create a branch...": "查找或创建分支...",
-        "View all": "查看全部",
-        "branches": "分支",
-        "Find a tag...": "查找标签...",
-        "Nothing to show": "暂无",
-        "tags": "标签",
+        "Find or create a branch...": "ค้นหาหรือสร้างแขนง...",
+        "View all": "ดูทั้งหมดของ",
+        "branches": "แขนง",
+        "Find a tag...": "ค้นหาแท็ก...",
+        "Nothing to show": "ไม่มีอะไรจะแสดง",
+        "tags": "แท็ก",
 
-        "View all rules": "查看全部规则",
+        "View all rules": "ดูกฎทั้งหมด",
 
         // 键盘快捷键
         "Open in codespace": "在代码空间中打开",
@@ -5110,7 +5114,7 @@ I18N.th["repository-public"] = { // 仓库 - 公共部分
         "Insert saved reply (with open saved replies)": "插入快捷回复（打开快捷回复）",
 
         "Pull request list": "拉取请求列表",
-        "Open pull request": "打开拉取请求",
+        "Open pull request": "เปิดคำขอดึง",
         "Pull request - Conversation tab": "拉取请求 - 对话标签卡",
         "Submit comment and close or open pull request": "提交评论和关闭或打开拉取请求",
         "Request reviewers": "请求审查者",
@@ -5132,16 +5136,16 @@ I18N.th["repository-public"] = { // 仓库 - 公共部分
         "Closed": "已关闭",
         "Merged": "已合并",
         "Draft": "草案",
-        "Branch": "分支",
-        "Branches": "分支",
-        "Tags": "标签",
+        "Branch": "แขนง",
+        "Branches": "แขนง",
+        "Tags": "แท็ก",
 
         "Compare & pull request": "比较 & 拉取请求",
 
         // 仓库 404 页面（非删库状态）
         "404 - page not found": "404 - 找不到页面",
         "The": "该",
-        "branch of": "分支",
+        "branch of": "แขนง",
         "does not contain the path": "仓库，不包含路径",
         "Return to the repository overview": "返回仓库概述",
         "Cannot find a valid ref in": "未找到有效的引用",
@@ -5218,10 +5222,10 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         "This is where you can write a long description for your project.": "คุณสามารถเขียนคำอธิบายโดยละเอียดเกี่ยวกับโปรเจกต์ของคุณได้ที่นี่",
         "Learn more about READMEs.": "เรียนรู้เพิ่มเติมเกี่ยวกับ README",
         "Add .gitignore": "เพิ่มไฟล์ .gitignore",
-        "Choose which files not to track from a list of templates.": "เลือกไฟล์ที่ไม่ต้องการการติดตามจากรายการเทมเพลต",
+        "Choose which files not to track from a list of templates.": "เลือกไฟล์ที่ไม่ต้องการการติดตามจากรายการแม่แบบ",
         "Learn more about ignoring files.": "เรียนรู้เพิ่มเติมเกี่ยวกับการละเว้นไฟล์",
-        ".gitignore template:": "เทมเพลต .gitignore：",
-        ".gitignore template": "เทมเพลต .gitignore",
+        ".gitignore template:": "แม่แบบ .gitignore：",
+        ".gitignore template": "แม่แบบ .gitignore",
         "Filter…": "กรอง…",
         "None": "ไม่มี",
         "Choose a license": "เลือกใบอนุญาต",
@@ -5230,7 +5234,7 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
 
         "License:": "ใบอนุญาต：",
         "License": "ใบอนุญาต",
-        "Grant your Marketplace apps access to this repository": "ให้สิทธิ์แอป Marketplace ของคุณเข้าถึง repository นี้",
+        "Grant your Marketplace apps access to this repository": "ให้สิทธิ์แอปในมาร์เก็ตเพลสของคุณเข้าถึง repository นี้",
         "You are creating a public repository in your personal account.": "คุณกำลังสร้าง Repository สาธารณะในบัญชีส่วนตัวของคุณ",
         "You are creating a private repository in your personal account.": "คุณกำลังสร้าง Repository ส่วนตัวในบัญชีส่วนตัวของคุณ",
 
@@ -5245,10 +5249,10 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
 
 
         // 依据模板新建仓库 https://github.com/new?template_owner=<template-owner>&template_name=<template-name>
-        "Repository template": "เทมเพลต Repository",
-        "Fetching templates…": "กำลังรับเทมเพลต…",
-        "No template": "ไม่มีการตั้งค่าเทมเพลต",
-        "Start your repository with a template repository's contents.": "สร้าง Repository ใหม่โดยใช้เนื้อหาของเทมเพลต repository",
+        "Repository template": "แม่แบบ Repository",
+        "Fetching templates…": "กำลังรับแม่แบบ…",
+        "No template": "ไม่มีการตั้งค่าแม่แบบ",
+        "Start your repository with a template repository's contents.": "สร้าง Repository ใหม่โดยใช้เนื้อหาของแม่แบบ repository",
         "Include all branches": "รวมทุก Branch",
         "Copy all branches from": "คัดลอก Branch ทั้งหมดจาก",
         "and not just the default branch.": "และไม่ใช่แค่ Branch เริ่มต้นเท่านั้น",
@@ -5266,12 +5270,12 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         //"Owner": "所有者",
         "Repository Name": "ชื่อ Repository",
         // "is available.": "名称可用。",
-        //"The repository": "仓库",
+        //"The repository": "Repository",
         //"already exists on this account.": "已经存在于此帐户。",
         //"Your new repository will be created as": "您的新仓库将被创建为",
         //"Public": "สาธารณะ",
         //"Anyone on the internet can see this repository. You choose who can commit.": "ทุกคนสามารถเห็น repository นี้ได้ และคุณสามารถเลือกผู้ที่สามารถ commit ได้ 。",
-        //"Private": "私有",
+        //"Private": "ส่วนตัว",
         //"You choose who can see and commit to this repository.": "您可以选择谁可以看和提交到该仓库。",
         "Cancel": "取消",
         "Begin import": "开始导入",
@@ -5308,7 +5312,7 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         "Repository name": "ชื่อ Repository",
 
         // [/is available./, "名称可用。"], // 复刻页面
-        "The repository": "仓库",
+        "The repository": "Repository",
         "already exists on this account.": "已经存在于此帐户。",
         "Your new repository will be created as": "您的新仓库将被创建为",
         "The repository name can only contain ASCII letters, digits, and the characters": "仓库名称只能包含 ASCII 字母、数字和字符",
@@ -5317,13 +5321,13 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         "(optional)": "（可选）",
 
         "Copy the": "仅复制",
-        "branch only": "分支",
+        "branch only": "แขนง",
 
         "Contribute back to": "回馈给",
         "by adding your own branch.": "通过添加您自己的分支。",
 
         "You are creating a fork in your personal account.": "您正在向您的个人帐户中创建一个复刻。",
-        "Create fork": "创建复刻",
+        "Create fork": "สร้างสาขาแยกใหม่",
 
     },
     "regexp": [ // 正则翻译
@@ -5365,7 +5369,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "forked from": "แยกมาจาก",
         "generated from": "创建自",
 
-        "Pin": "置顶", // 组织仓库
+        "Pin": "ปักหมุด", // 组织仓库
         "Edit Pins": "编辑置顶", // 组织仓库
         "Pin to…": "置顶到…",
         "Profile": "个人资料页",
@@ -5379,15 +5383,15 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
 
         "Ignoring": "忽略",
         "Stop ignoring": "取消忽略",
-        "Watch": "关注",
-        "Unwatch": "取消关注",
+        "Watch": "จับตาดู",
+        "Unwatch": "ยกเลิกจับตาดู",
 
-        "Star": "星标",
-        "Unstar": "已加星标",
-        "Fork": "复刻",
+        "Star": "ดาว",
+        "Unstar": "ยกเลิกติดดาว",
+        "Fork": "แยก",
         "Unfork": "取消复刻",
 
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
         // 赞助对话框
         // [/Sponsor ([^ ]+)?/, "赞助 $1"], // 赞助按钮 对话框 标题
         "External links": "外部链接",
@@ -5399,32 +5403,32 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
 
 
         // 关注 & 订阅通知设置 下拉菜单
-        "Notification settings": "通知设置", //小屏模式
-        "Notifications": "通知类型",
-        "Participating and @mentions": "参与和 @您",
-        "Only receive notifications from this repository when participating or @mentioned.": "仅在参与或 @您 时接收来自此仓库的通知。",
-        "All Activity": "所有活动",
-        "Notified of all notifications on this repository.": "接收来自此仓库所有通知。",
-        "Ignore": "忽略",
-        "Never be notified.": "永不接收通知。",
-        "Custom": "自定义",
-        "Select events you want to be notified of in addition to participating and @mentions.": "选择除参与和 @您 之外还要接收通知的事件。",
-        "Get push notifications on": "要获取推送通知，使用",
-        "Releases": "发行版",
-        "Issues are not enabled for this repository": "此仓库未启用议题功能",
+        "Notification settings": "การตั้งค่าการแจ้งเตือน", //小屏模式
+        "Notifications": "การแจ้งเตือน",
+        "Participating and @mentions": "มีการเข้าร่วมและ @การกล่าวถึง",
+        "Only receive notifications from this repository when participating or @mentioned.": "รับการแจ้งเตือนจาก repository นี้เมื่อมีการเข้าร่วมหรือ @พูดถึงเท่านั้น",
+        "All Activity": "ทุกกิจกรรม",
+        "Notified of all notifications on this repository.": "แจ้งทุกการแจ้งเตือนทั้งหมดภายใน repository นี้",
+        "Ignore": "ละเว้น",
+        "Never be notified.": "ไม่รับการแจ้งเตือนเลย",
+        "Custom": "ปรับแต่งเอง",
+        "Select events you want to be notified of in addition to participating and @mentions.": "เลือกกิจกรรมที่คุณต้องการรับการแจ้งเตือนนอกเหนือจากการเข้าร่วมและ @การกล่าวถึง",
+        "Get push notifications on": "รับการแจ้งเตือนแบบพุชใน",
+        "Releases": "การเผยแพร่",
+        "Issues are not enabled for this repository": "ไม่ได้เปิดใช้งานฟังก์ชันปัญหาสำหรับ repository นี้",
         "Discussions": "การสนทนา",
-        "Discussions are not enabled for this repository": "该仓库未启用讨论功能",
-        "Discussions are not enabled for this repo": "此仓库未启用讨论功能",
-        "Security alerts": "安全警报",
+        "Discussions are not enabled for this repository": "ไม่ได้เปิดใช้งานฟังก์ชันการสนทนาสำหรับ repositoryนี้",
+        "Discussions are not enabled for this repo": "ไม่ได้เปิดใช้งานการสนทนาสำหรับ repo นี้",
+        "Security alerts": "การแจ้งเตือนความปลอดภัย",
         //"Cancel": "取消",
-        "Apply": "应用",
+        "Apply": "ปรับใช้",
 
         // 复刻下拉
         "Cannot fork because repository is empty.": "无法复刻，因为仓库是空的。",
         "Cannot fork because you own this repository and are not a member of any organizations.": "不能复刻，因为您拥有该仓库，而且不是任何组织的成员。",
-        "Existing forks": "现有的复刻",
-        "You don't have any forks of this repository.": "您没有此仓库的任何复刻。",
-        "Create a new fork": "创建复刻",
+        "Existing forks": "สาขาที่แยกออกมา",
+        "You don't have any forks of this repository.": "คุณไม่มีสาขาที่แยกออกมาจาก repository นี้",
+        "Create a new fork": "สร้างสาขาแยกใหม่",
 
         //
         "Star this repository": "星标仓库", //小屏模式
@@ -5475,14 +5479,14 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "If you have a local clone, you can update it by running the following commands.": "如果您有一个本地克隆，您可以通过运行以下命令来更新它。",
         "OK, got it": "好的，我知道了！",
 
-        "branch": "分支",
-        "branches": "分支",
-        "tag": "标签",
-        "tags": "标签",
+        "branch": "แขนง",
+        "branches": "แขนง",
+        "tag": "แท็ก",
+        "tags": "แท็ก",
 
-        "Go to file": "转到文件",
+        "Go to file": "ไปยังไฟล์",
         "No matches found": "未找到匹配项",
-        "Add file": "添加文件",
+        "Add file": "เพิ่มไฟล์",
         // 添加文件 下拉菜单
         "Create new file": "新建文件",
         "Upload files": "上传文件",
@@ -5572,7 +5576,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Export changes to a fork": "将更改导出到复刻",
         "You do not have write access to this codespace's repository. This will create a new fork of the repository at": "您没有对此代码空间的存储库的写访问权限。这将创建一个新的存储库分支在",
         ", reassign your codespace to that fork, and export your changes to a new branch.": "，将代码空间重新分配给该复刻，并将更改导出到新分支。",
-        "Create fork": "创建复刻",
+        "Create fork": "สร้างสาขาแยกใหม่",
         "Change machine type": "修改机器类型",
         "Change codespace machine type": "修改代码空间机器类型",
         "Update codespace": "更新代码空间",
@@ -5589,20 +5593,20 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Open in a codespace": "在代码空间中打开",
 
         // 个人仓库 当前分支状态
-        "This branch is": "该分支",
-        "ahead of": "领先与", // 新版仓库概述
-        "behind": "落后", // 新版仓库概述
+        "This branch is": "แขนงนี้มี",
+        "ahead of": "ที่นำหน้าต้นทาง", // 新版仓库概述
+        "behind": "ที่ล้างหลังต้นทาง", // 新版仓库概述
         "This branch is up to date with": "该分支保持同步与", // 新版仓库概述
 
-        "Contribute": "贡献",
+        "Contribute": "การมีส่วนร่วม",
         // 贡献按钮下拉菜单
         "This branch is not ahead of the upstream": "这个分支不领先于上游",
-        "No new commits yet. Enjoy your day!": "尚无新提交。祝您愉快！",
-        "Open a pull request to contribute your changes upstream.": "打开拉取请求以向上游贡献您的更改。",
-        "This branch is not behind the upstream": "这个分支不落后于上游",
-        "Open pull request": "打开拉取请求",
+        "No new commits yet. Enjoy your day!": "ไม่มีการบันทึกใดใหม่ ขอให้มีความสุข!",
+        "Open a pull request to contribute your changes upstream.": "เปิดคำขอดึงเพื่อสนับสนุนการเปลี่ยนแปลงที่ต้นทาง",
+        "This branch is not behind the upstream": "แขนงนี้อยู่ในสถานะเท่ากับต้นทาง",
+        "Open pull request": "เปิดคำขอดึง",
 
-        "Sync fork": "同步复刻",
+        "Sync fork": "ซิงค์สาขาแยก",
         // 同步复刻按钮下拉菜单
         "This branch is out-of-date": "此分支已过时",
         "Update branch to merge the latest changes from the upstream repository into this branch.": "更新分支，将上游仓库的最新修改合并到本分支。",
@@ -5611,17 +5615,17 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "from the upstream repository.": "来自上游仓库。",
         "Learn more about syncing a fork": "了解更多关于复刻同步的信息",
         // [/This branch is not behind the upstream ([^ ]+)/, "该分支不落后与上游 $1"], // 同步复刻
-        "No new commits to fetch. Enjoy your day!": "尚无新提交。祝您愉快！", //相同
+        "No new commits to fetch. Enjoy your day!": "尚无新提交。ขอให้มีความสุข", //相同
         "Compare": "对比",
         "Update branch": "更新分支",
         "Updating...": "正在更新中…",
 
-        "This branch has conflicts that must be resolved": "该分支有必须解决的冲突",
+        "This branch has conflicts that must be resolved": "แขนงนี้มีสิ่งขัดแย้งที่ต้องแก้ไข",
         // [/Discard (\d+) commits? to make this branch match the upstream repository. (\d+)commits? will be removed from this branch./, "丢弃 $1 个提交，以使本分支与上游仓库一致。$2 个提交将从本分支中删除。"],
-        "Discard": "丢弃", // 新版仓库概述
-        "to make this branch match the upstream repository.": "，以使本分支与上游仓库一致。", // 新版仓库概述
-        "will be removed from this branch.": "将从本分支中删除。", // 新版仓库概述
-        "You can resolve merge conflicts using the command line and a text editor.": "您可以使用命令行和文本编辑器解决合并冲突。",
+        "Discard": "ลบทิ้ง", // 新版仓库概述
+        "to make this branch match the upstream repository.": "เพื่อให้แขนงนี้ตรงกับ repository ต้นทาง จากนั้น", // 新版仓库概述
+        "will be removed from this branch.": "จะถูกการลบออกจากแขนงนี้", // 新版仓库概述
+        "You can resolve merge conflicts using the command line and a text editor.": "คุณสามารถแก้ไขสิ่งที่ขัดแย้งกันโดยใช้ command line หรือโปรแกรมแก้ไขข้อความได้ เพื่อที่จะได้สามารถผสานกันได้",
         // [/Discard (\d+) commits?/, "丢弃 $1 个提交"],
         "Discarding changes...": "放弃更改...",
 
@@ -5634,13 +5638,13 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         // "and": "和",
         // "are entirely different commit histories.": "是完全不同的提交历史。",
         // "No commit comments for this range": "在此范围内没有提交评论",
-        // "No new commits yet. enjoy your day!": "尚无新提交。祝您愉快！",
+        // "No new commits yet. enjoy your day!": "尚无新提交。ขอให้มีความสุข",
         // "Find a branch": "查找分支",
 
         // 正文
-        "commit": "次提交",
-        "commits": "次提交",
-        // [/([\d,]+) Commits?/, "$1 次提交"], // 新版仓库概述
+        "commit": "การบันทึก",
+        "commits": "การบันทึก",
+        // [/([\d,]+) Commits?/, "$1 การบันทึก"], // 新版仓库概述
 
         "Failed to load latest commit information.": "载入最新提交信息失败。",
 
@@ -5679,33 +5683,33 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
 
         // "About": "关于"，
         "No description, website, or topics provided.": "未提供描述、网站或主题。",
-        "Readme": "自述文件",
+        "Readme": "ไฟล์ readme",
         "View license": "查看许可证",
         "Code of conduct": "行为准则",
-        "Security policy": "安全政策",
-        "Activity": "活动",
-        "star": "星标",
-        "stars": "星标",
-        "watching": "关注",
-        "fork": "复刻",
-        "forks": "复刻",
-        "Report repository": "举报仓库",
-        "Public repository": "公共仓库", //小屏模式
-        "Private repository": "私有仓库", //小屏模式
+        "Security policy": "นโยบายความปลอดภัย",
+        "Activity": "กิจกรรม",
+        "star": "ดาว",
+        "stars": "ดาว",
+        "watching": "กำลังจับตาดู",
+        "fork": "แยก",
+        "forks": "ที่สาขาแยก",
+        "Report repository": "รายงาน repository นี้",
+        "Public repository": "repository สาธารณะ", //小屏模式
+        "Private repository": "repository ส่วนตัว", //小屏模式
 
 
         // 仓库描述编辑 对话框
-        "Edit repository details": "编辑仓库简述",
+        "Edit repository details": "แก้ไขคำอธิบาย repository",
         "Description": "คำอธิบาย",
-        "Short description of this repository": "简短的描述下您的仓库",
-        "Website": "网址",
-        "Enter a valid URL": "请输入有效的 URL",
-        "Use your GitHub Pages website": "使用您的 GitHub Pages 站点",
-        "Topics": "主题",
-        "(separate with spaces)": "（空格分隔）",
-        "Suggested:": "建议：",
-        "Add this topic": "接受该建议",
-        "Decline this topic": "拒绝该建议",
+        "Short description of this repository": "คำอธิบายสั้นๆของ repository นี้",
+        "Website": "เว็บไซต์",
+        "Enter a valid URL": "โปรดป้อน URL ที่ถูกต้อง",
+        "Use your GitHub Pages website": "ใช้เว็บไซต์ GitHub Pages ของคุณ",
+        "Topics": "หัวข้อ",
+        "(separate with spaces)": " (เว้นวรรค) ",
+        "Suggested:": "คำแนะนำ：",
+        "Add this topic": "เพิ่มหัวข้อนี้",
+        "Decline this topic": "ปฏิเสธหัวข้อนี้",
         "This isn’t relevant": "这并不相关",
         "This is too specific": "这太具体了",
         "This is too general": "这太笼统了",
@@ -5715,7 +5719,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         // 顶部提醒
         "Your repository details have been saved.": "您的仓库简述已保存。",
 
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         "No releases published": "未发布任何版本",
         "Latest": "最新",
         "Create a new release": "创建发行版",
@@ -5725,14 +5729,14 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Sponsor this project": "赞助本项目",
         "Learn more about GitHub Sponsors": "了解更多关于 GitHub 赞助者的信息",
         "Used by": "使用者",
-        "Contributors": "贡献者",
-        "Environments": "环境",
-        "Deployments": "部署",
-        "+ more deployments": "+ 更多部署",
-        "Languages": "语言",
+        "Contributors": "ผู้มีส่วนร่วม",
+        "Environments": "สภาพแวดล้อม",
+        "Deployments": "การปรับใช้",
+        "+ more deployments": "+ การปรับใช้เพิ่มเติม",
+        "Languages": "ภาษา",
 
-        // "branch": "分支",
-        // "branches": "分支",
+        // "branch": "แขนง",
+        // "branches": "แขนง",
         // "release": "次发布",
         // "releases": "次发布",
         // "contributor": "个贡献者",
@@ -5744,7 +5748,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Define community standards, signal a welcoming and inclusive project, and outline procedures for handling abuse by adding a code of conduct.": "通过添加行为准则，明确社区标准，体现项目的欢迎和包容性，并概述处理滥用行为的程序。",
 
         // /<user-name>/<repo-name>#license
-        "License": "许可证",
+        "License": "ใบอนุญาต",
         "Add a license": "添加许可证",
         "Add a license to your repository to make it clear how others can use, change, and contribute to your project.": "向仓库中添加许可证，以明确其他人可以如何使用、更改您的项目并为您的项目做出贡献。",
 
@@ -5791,16 +5795,16 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Use the URL for this page when adding GitHub as a remote.": "将 GitHub 添加为远程时，请使用此页面上的 URL。",
 
         // 文件管理器 /<user-name>/<repo-name>/tree/<branch>/<文件夹路径>/
-        "Go to file": "转到文件",
-        "No matches found": "未找到匹配项",
-        "Add file": "添加文件",
+        "Go to file": "ไปยังไฟล์",
+        "No matches found": "ไม่พบรายการที่ตรงกัน",
+        "Add file": "เพิ่มไฟล์",
         // 添加文件 下拉菜单
-        "Create new file": "新建文件",
-        "Upload files": "上传文件",
-        "Delete directory": "删除文件夹",
-        "History": "历史",
+        "Create new file": "สร้างไฟล์ใหม่",
+        "Upload files": "อัปโหลดไฟล์",
+        "Delete directory": "ลบโฟลเดอร์",
+        "History": "ประวัติ",
 
-        "Give feedback": "反馈",
+        "Give feedback": "ให้ข้อเสนอแนะ",
 
         // 文件管理器 - 议题模板 /<user-name>/<repo-name>/tree/<branch>/.github/ISSUE_TEMPLATE
         "Customize the issue creation experience with a": "自定义议题的创建模板使用一个",
@@ -5848,7 +5852,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Download raw file": "下载原始文件",
         "Edit this file": "编辑本文件",
         "Edit the file in your fork of this project": "在您的复刻中编辑文件",
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Edit in place": "就地编辑",
         "Open with...": "打开...",
 
@@ -5869,18 +5873,18 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         [/commits by (.+)/, "由 $1 提交"],
         [/Branch ([^ ]+) was renamed to ([^ ]+)./, "分支 $1 已更名为 $2。"],
         [/Your ([^ ]+) branch isn't protected/, "您的 $1 分支不受保护"], // 仓库主页 分支保护
-        [/([\d,]+) Commits?/, "$1 次提交"], // 新版仓库概述
+        [/([\d,]+) Commits?/, "$1 การบันทึก"], // 新版仓库概述
         [/Create a codespace on (.+)/, "在 $1 上创建代码空间"], // 仓库主页 创建代码空间
         [/Create codespace on (.+)/, "在 $1 上创建代码空间"],
         [/Codespace \"(.+)\" stopped./, "代码空间 “$1” 已停止。"],
         [/Codespace \"(.+)\" deleted./, "代码空间 “$1” 已删除。"],
         [/Are you sure you want to delete (.+)\?/, "您确定要删除 $1 吗？"],
         [/Sponsor ([^ ]+)?/, "赞助 $1"], // 赞助按钮 对话框 标题
-        [/\+ ([\d,]+) releases?/, "+ $1 个发行版"], // 仓库首页右侧栏 发行版
-        [/\+ ([\d,]+) packages?/, "+ $1 个软件包"], // 仓库首页右侧栏 软件包
-        [/\+ ([\d,]+) contributors?/, "+ $1 位贡献者"], // 仓库首页右侧栏 贡献者
+        [/\+ ([\d,]+) releases?/, "+ $1 ที่มีการเผยแพร่"], // 仓库首页右侧栏 发行版
+        [/\+ ([\d,]+) packages?/, "+ $1 แพ็กเกจ"], // 仓库首页右侧栏 软件包
+        [/\+ ([\d,]+) contributors?/, "+ $1 ที่มีส่วนร่วม"], // 仓库首页右侧栏 贡献者
         [/\+ ([\d,]+) environments?/, "+ $1 个环境"], // 仓库首页右侧栏 环境
-        [/\+ ([\d,]+) deployments?/, "+ $1 个部署"], // 仓库首页右侧栏 部署
+        [/\+ ([\d,]+) deployments?/, "+ $1 ที่มีการปรับใช้"], // 仓库首页右侧栏 部署
         // 个人仓库 贡献和同步复刻操作后 信息提示条
         [/Successfully fetched and fast-forwarded from upstream ([^ ]+)\./, "成功从上游 $1 中获取并快速转发。"],
         [/Successfully discarded changes and synchronized branch to match upstream ([^ ]+)\./, "成功丢弃更改，并将分支与上游 $1 保持同步。"],
@@ -5888,16 +5892,16 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         [/Update branch to keep this branch up-to-date by syncing (\d+) commits? from the upstream repository./, "通过从上游仓库同步 $1 个提交来更新分支，以使该分支保持最新。"],
         [/This branch is not behind the upstream ([^ ]+)/, "该分支不落后与上游 $1"],
         [/Discard (\d+) commits? to make this branch match the upstream repository. (\d+) commits? will be removed from this branch./, "丢弃 $1 个提交，以使本分支与上游仓库一致。$2 个提交将从本分支中删除。"],
-        [/Discard (\d+) commits?/, "丢弃 $1 个提交"],
+        [/Discard (\d+) commits?/, "ลบทิ้ง $1 การบันทึก"],
         [/Successfully fetched and merged from upstream ([^ ]+)/, "成功从上游 $1 获取并合并。"],
         // 贡献
         [/This branch is not ahead of the upstream ([^ ]+)\./, "该分支并不领先上游 $1。"],
         [/This branch is (\d+) commits? ahead of ([^ ]+)\./, "该分支领先上游 $2 $1个提交。"],
         // 个人仓库当前分支状态
         [/This branch is up to date with ([^ ]+)\./, "该分支与上游 $1 保持同步。"],
-        [/(\d+) commits? ahead/, "领先 $1 个提交"],
-        [/(\d+) commits? behind/, "落后 $1 个提交"],
-        [/(\d+) commits?/, "$1 个提交"], // 新版仓库概述
+        [/(\d+) commits? ahead/, "นำหน้า $1 การบันทึก"],
+        [/(\d+) commits? behind/, "ล้าหลัง $1 การบันทึก"],
+        [/(\d+) commits?/, "$1 การบันทึก"], // 新版仓库概述
         [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub Desktop，保存 $1 到您的电脑。"],
         [/Forking ([^ ]+)/, "复刻 $1 中"], // 复刻中...
         [/Fork your own copy of ([^ ]+)/, "复刻成您自己的 $1 副本"], // 复刻按钮提示
@@ -5910,11 +5914,11 @@ I18N.th["repository/labels"] = { // 仓库 - 标签页面
         ...I18N.th["repository-public"]["static"],
 
         // 仓库 --> 标签页面 /<user-name>/<repo-name>/labels
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "Milestones": "里程碑",
         "Search all labels": "搜索所有标签",
 
-        "labels": "标签",
+        "labels": "แท็ก",
 
         "New label": "新建标签",
         "Label preview": "标签预览",
@@ -5972,7 +5976,7 @@ I18N.th["repository/milestones"] = { // 仓库 - 里程碑页面
         ...I18N.th["repository-public"]["static"],
 
         // 里程碑页面 /<user-name>/<repo-name>/milestones
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "Milestones": "里程碑",
 
         "You haven’t created any Milestones.": "您尚未创建任何里程碑。",
@@ -6037,17 +6041,17 @@ I18N.th["repository/pull_issue_public"] = { // 仓库 - 议题和拉取请求页
 
         "Clear current search query, filters, and sorts": "清除当前的搜索查询、筛选器和排序方式",
 
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "Milestones": "里程碑",
         "New issue": "创建议题",
-        "New": "创建", // 小屏
+        "New": "สร้างใหม่", // 小屏
 
         // 筛选工作条
         // "Author": "作者",
         "Filter by author": "按用户筛选",
         "Filter users": "筛选用户名",
 
-        "Label": "标签",
+        "Label": "แท็ก",
         "Filter by label": "按标签筛选",
         "Filter labels": "筛选标签",
         "Unlabeled": "无标签",
@@ -6055,7 +6059,7 @@ I18N.th["repository/pull_issue_public"] = { // 仓库 - 议题和拉取请求页
         // "Projects": "โปรเจกต์",
         "Filter by project": "按项目筛选",
         "Filter projects": "筛选项目",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Organization": "组织",
         "No projects found. Sorry about that.": "很抱歉，未找到任何项目。",
 
@@ -6212,8 +6216,8 @@ I18N.th["repository/issues"] = { // 仓库 - 议题页面
         "and removed": "并移除了",
         "removed the": "移除了",
         "removed": "移除了",
-        "label": "标签",
-        "labels": "标签",
+        "label": "แท็ก",
+        "labels": "แท็ก",
         "self-assigned this": "自己受理了该议题",
         // "edited": "编辑的",
         "added this to the": "添加到",
@@ -6285,7 +6289,7 @@ I18N.th["repository/issues"] = { // 仓库 - 议题页面
         "Type or choose a user": "输入或选择用户",
         "Suggestions": "建议",
 
-        // "Labels": "标签",
+        // "Labels": "แท็ก",
         "None yet": "暂无",
         // 下拉
         "Apply labels to this issue": "应用标签", // 议题
@@ -6465,7 +6469,7 @@ I18N.th["repository/issues"] = { // 仓库 - 议题页面
         "Remember, contributions to this repository should follow its": "请记住，对该仓库的贡献应遵循",
         "contributing guidelines": "贡献指南",
         "and": "和",
-        "security policy": "安全政策",
+        "security policy": "นโยบายความปลอดภัย",
         "code of conduct": "行为准则",
 
         "This issue has been deleted.": "该议题已被删除。",
@@ -6725,7 +6729,7 @@ I18N.th["repository/pull"] = { // 仓库 - 拉取请求页面
         "Type or choose a user": "输入或选择用户",
         "Suggestions": "建议",
 
-        // "Labels": "标签",
+        // "Labels": "แท็ก",
         "None yet": "暂无",
         // 下拉
         "bug": "BUG",
@@ -6856,7 +6860,7 @@ I18N.th["repository/pull"] = { // 仓库 - 拉取请求页面
         "GitHub Community Guidelines": "GitHub 社区准则",
         "Remember, contributions to this repository should follow its": "请记住，对该仓库的贡献应遵循",
         "contributing guidelines": "贡献指南",
-        "security policy": "安全政策",
+        "security policy": "นโยบายความปลอดภัย",
         "code of conduct": "行为准则",
 
         // 讨论标签卡 主页
@@ -6903,7 +6907,7 @@ I18N.th["repository/pull"] = { // 仓库 - 拉取请求页面
         "This pull request was": "此拉取请求已",
         "Compare": "比较",
         "deleted the": "删除",
-        "branch": "分支",
+        "branch": "แขนง",
         "added": "添加",
         "requested changes": "要求更改",
 
@@ -7130,7 +7134,7 @@ I18N.th["repository/pull"] = { // 仓库 - 拉取请求页面
         "Show comments": "显示评论",
         "Show annotations": "显示注释",
         "View file": "查看文件",
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Delete file": "删除文件",
         "Open in desktop": "在 GitHub Desktop 中打开",
 
@@ -7416,12 +7420,12 @@ I18N.th["repository/compare"] = { // 仓库 - 比较并创建拉取请求
 
         "View pull request": "查看拉取请求", //存在拉取请求时
 
-        "commit": "次提交",
-        "commits": "次提交",
+        "commit": "การบันทึก",
+        "commits": "การบันทึก",
         "file changed": "个文件变更",
         "files changed": "个文件变更",
-        "contributor": "位贡献者",
-        "contributors": "位贡献者",
+        "contributor": "ผู้มีส่วนร่วม",
+        "contributors": "ผู้ที่มีส่วนร่วม",
         // "No commit comments for this range": "该范围变更没有提交注释",
 
         "Reviewers": "审查者",
@@ -7450,7 +7454,7 @@ I18N.th["repository/compare"] = { // 仓库 - 比较并创建拉取请求
         "Type or choose a user": "输入或选择用户",
         "Suggestions": "建议",
 
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "None yet": "暂无",
         "bug": "BUG",
         "Something isn't working": "有些东西不工作",
@@ -7586,7 +7590,7 @@ I18N.th["repository/commit"] = { // 仓库 - 提交页面
         "Show comments": "显示评论",
         "Show annotations": "显示注释",
         "View file": "查看文件",
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Delete file": "删除文件",
         "Open in desktop": "在 GitHub Desktop 中打开",
 
@@ -7724,18 +7728,18 @@ I18N.th["repository/blob"] = { // 仓库 - 浏览代码
         "This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.": "此提交不属于该仓库上的任何分支，并且可能属于仓库的外部分支。",
 
         // 左侧栏
-        "Add file": "添加文件",
+        "Add file": "เพิ่มไฟล์",
         "Documentation": "文档",
 
         "View Runs": "查看运行情况", // 工作流程文件
-        "Go to file": "转到文件",
+        "Go to file": "ไปยังไฟล์",
         "No matches found": "未找到匹配项",
 
         // 快捷键
         "Source code browsing": "源代码浏览",
         "Activates the file finder": "激活文件查找器",
         "Jump to line": "跳转到行",
-        "Switch branch/tag": "切换分支/标签",
+        "Switch branch/tag": "สลับแขนง/แท็ก",
         "Expand URL to its canonical form": "将 URL 扩展为其规范形式",
         "Show/hide all inline notes": "显示/隐藏所有内嵌注释",
         "Open blame": "打开追溯视图",
@@ -7837,7 +7841,7 @@ I18N.th["repository/blob"] = { // 仓库 - 浏览代码
         "Download raw file": "下载原始文件",
         "Edit this file": "编辑本文件",
         "Edit the file in your fork of this project": "在您的复刻中编辑文件",
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Edit in place": "就地编辑",
         "Open with...": "打开...",
 
@@ -7866,7 +7870,7 @@ I18N.th["repository/blob"] = { // 仓库 - 浏览代码
         "References": "引用",
         "Reference": "引用",
         "No definitions or references found": "未找到定义或引用",
-        "Show more": "显示更多",
+        "Show more": "แสดงเพิ่มเติม",
         "Show less": "显示更少",
         "Search for this symbol": "搜索此符号",
 
@@ -7936,7 +7940,7 @@ I18N.th["repository/discussions"] = { // 讨论页面
         "Top: Past day": "置顶：过去一天",
         "Top: Past year": "置顶：过去一年",
         "Top: All": "置顶：所有",
-        "Label": "标签",
+        "Label": "แท็ก",
         "Filter by label": "按标签筛选",
         "Filter labels": "筛选标签",
         "Unlabeled": "无标签",
@@ -8060,7 +8064,7 @@ I18N.th["repository/discussions"] = { // 讨论页面
         "Add this category to a section (optional)": "将此分类添加到一个栏目（可选）",
         "No section": "无栏目",
 
-        "Create": "创建",
+        "Create": "สร้าง",
         "Save changes": "保存更改",
         "Submitting": "提交中",
 
@@ -8106,7 +8110,7 @@ I18N.th["repository/discussions"] = { // 讨论页面
         "Select a discussion category": "选择讨论分类",
         "Get started": "开始",
         "Category:": "分类：",
-        "Contributing": "贡献",
+        "Contributing": "การมีส่วนร่วม",
         "It looks like this is your first time starting a discussion in this repository!": "看起来这是您第一次在此仓库中开始讨论！",
         "This is a community we build together. Please be welcoming and open minded.": "这是我们共同建立的社区。请保持热情和开放的态度。",
 
@@ -8120,11 +8124,11 @@ I18N.th["repository/discussions"] = { // 讨论页面
         "+ Add an option": "+ 增加选项",
 
         // 右侧栏
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "None yet": "暂无",
         "Helpful resources": "帮助性资源",
         "Code of conduct": "行为准则",
-        "Security policy": "安全政策",
+        "Security policy": "นโยบายความปลอดภัย",
         "Support": "支持",
         "GitHub Community Guidelines": "GitHub 社区准则",
 
@@ -8177,11 +8181,11 @@ I18N.th["repository/discussions"] = { // 讨论页面
         "View full answer": "查看完整答案",
         "Oldest": "最早",
         "Newest": "最新",
-        "Top": "置顶",
+        "Top": "ปักหมุด",
         "Comment options": "评论选项",
 
 
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "Marked": "标记为",
         "an": "一个",
         "Marked then unmarked an answer": "标记后，又取消标记",
@@ -8461,7 +8465,7 @@ I18N.th["repository/actions"] = { // 仓库 - 操作页面
         "pull_request": "ดึงคำขอ",
         "pull_request_target": "拉取请求目标",
         "schedule": "日程",
-        "watch": "关注",
+        "watch": "จับตาดู",
         "workflow_dispatch": "工作流程调度",
         "dynamic": "动态",
         // 状态
@@ -8479,7 +8483,7 @@ I18N.th["repository/actions"] = { // 仓库 - 操作页面
         "timed out": "已超时",
         "skipped": "跳过",
         "stale": "陈旧",
-        "Branch": "分支",
+        "Branch": "แขนง",
         "Filter by branch": "按分支筛选",
         "Find a branch": "查找分支",
         "Actor": "角色",
@@ -8655,7 +8659,7 @@ I18N.th["repository/actions"] = { // 仓库 - 操作页面
         "This artifact has expired and you can no longer download it": "此附件已过期，您无法再下载",
         "Annotations": "说明",
         // [/1 error/, "$1 个错误"],
-        "Show more": "显示更多",
+        "Show more": "แสดงเพิ่มเติม",
         "Show less": "显示更少",
 
         // /<user-name>/<repo-name>/actions/runs/<id>/jobs/<id2>
@@ -8855,7 +8859,7 @@ I18N.th["repository/new"] = { // 仓库 - 新建/编辑/上传/删除文件页�
         "Some rules will be bypassed by committing directly": "直接提交可以绕过一些规则",
         "Bypass rules and commit changes": "绕过规则并提交更改",
 
-        "Create a": "创建",
+        "Create a": "สร้าง",
         "new branch": "新分支",
         "for this commit and start a pull request.": "为这个提交，并且发起一个拉取请求。",
         "Learn more about pull requests.": "了解更多关于拉取请求的信息。",
@@ -8921,7 +8925,7 @@ I18N.th["repository/new"] = { // 仓库 - 新建/编辑/上传/删除文件页�
         // "Preview changes": "预览更改",
         "Toggle line comment": "切换行评论",
 
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Preview": "预览",
         "Show diff": "显示差异",
         "Show Diff": "显示差异", // new code view
@@ -8939,7 +8943,7 @@ I18N.th["repository/new"] = { // 仓库 - 新建/编辑/上传/删除文件页�
         "Extended description": "扩展描述",
         "Add an optional extended description…": "添加可选的扩展描述…",
 
-        "branch": "分支",
+        "branch": "แขนง",
         "for this commit and start a pull request": "为此提交并创建拉取请求",
         "Learn more about pull requests": "了解更多关于拉取请求的信息",
 
@@ -9099,7 +9103,7 @@ I18N.th["repository/branches"] = { // 仓库 - 分支页面
         "Stale": "陈旧的",
         "All branches": "所有分支",
         "All": "所有",
-        "branches": "分支",
+        "branches": "แขนง",
         "New branch": "新建分支",
         // 创建分支对话框
         "Branch source": "源分支",
@@ -9164,7 +9168,7 @@ I18N.th["repository/branches"] = { // 仓库 - 分支页面
         "Deleted just now by": "刚刚被删除",
 
         // 删除对话框 仅当该分支存在拉取请求
-        "The branch": "分支",
+        "The branch": "แขนง",
         // [/is associated with (\d+) open pull requests?:/, "与 $1 个拉取请求相关联："], // 分支页面
         "is associated with an open pull request:": "与 1 个拉取请求相关联：", // 分支页面
         "If you delete this branch, the pull request will be closed.": "如果您删除此分支，则拉取请求将被关闭。",
@@ -9204,7 +9208,7 @@ I18N.th["repository/branches"] = { // 仓库 - 分支页面
         "Copy branch name to clipboard": "将分支名称复制到剪贴板",
         "This branch is protected by branch protections": "该分支受分支保护的保护",
 
-        "Activity": "活动",
+        "Activity": "กิจกรรม",
         "View rules": "查看规则",
 
         "View more branches": "查看更多分支",
@@ -9236,12 +9240,12 @@ I18N.th["repository/activity"] = { // 仓库 - 活动页面
         ...I18N.th["repository-public"]["static"],
 
         // 活动页面 /<user-name>/<repo-name>/activity
-        "Activity": "活动",
+        "Activity": "กิจกรรม",
 
         "All branches": "所有分支",
         "Switch branches": "切换分支",
         "Find a branch...": "查找分支...",
-        "Branches": "分支",
+        "Branches": "แขนง",
         "default": "默认",
         "View activity for all branches": "查看所有分支的活动",
 
@@ -9257,12 +9261,12 @@ I18N.th["repository/activity"] = { // 仓库 - 活动页面
         "Find a user...": "查找用户...",
         "View activity for all users": "查看所有用户的活动",
 
-        "All time": "所有时间",
-        "Last 24 hours": "过去 24 小时",
-        "Last week": "上星期",
-        "Last month": "上个月",
-        "Last quarter": "上季度",
-        "Last year": "去年",
+        "All time": "ทุกช่วงเวลา",
+        "Last 24 hours": "24 ชั่วโมงก่อน",
+        "Last week": "สัปดาห์ที่แล้ว",
+        "Last month": "เดือนที่แล้ว",
+        "Last quarter": "ไตรมาสที่แล้ว",
+        "Last year": "ปีที่แล้ว",
 
 
         "Showing oldest first": "显示最早的",
@@ -9340,7 +9344,7 @@ I18N.th["repository/releases"] = { // 仓库 - 发行版页面
         "Learn about vigilant mode": "了解警戒模式",
 
         // 发行版 页面 /<user-name>/<repo-name>/releases
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         // 无发行版时
         "There aren’t any releases here": "没有任何发行版",
         "You can create a release to package software, along with release notes and links to binary files, for other people to use. Learn more about releases in": "您可以创建一个发行版来打包软件，以及发行说明和二进制文件链接，供其他人使用。了解更多关于发布的信息查看",
@@ -9363,7 +9367,7 @@ I18N.th["repository/releases"] = { // 仓库 - 发行版页面
         "Find a tag": "搜索标签",
         "View all tags": "查看全部标签",
 
-        "Read more": "阅读更多内容",
+        "Read more": "อ่านเพิ่มเติม",
         "Contributors": "贡献者",
         "Assets": "资源",
         // [/Show all (\d+) assets?/, "显示所有 $1 个资产？"],
@@ -9394,7 +9398,7 @@ I18N.th["repository/releases"] = { // 仓库 - 发行版页面
         // "Create release": "创建发行版",
         "from tag": "来自该标签",
         // "Edit": "编辑",
-        "release": "发行版",
+        "release": "การเผยแพร่",
 
         // "Read release notes": "阅读发布说明",
         // 状态词
@@ -9973,7 +9977,7 @@ I18N.th["repository/security"] = { // 仓库 - 安全页面
         "GitHub Advisory Database": "GitHub 咨询数据库",
         ". They may also trigger Dependabot alerts to users that depend on this repository.": "。它们还可能向依赖此仓库的用户触发 Dependabot 警报。",
 
-        "Security policy": "安全政策",
+        "Security policy": "นโยบายความปลอดภัย",
         "Glossary and documentation": "词汇表和文档",
         "Dependabot language support": "Dependabot 语言支持",
     },
@@ -10029,7 +10033,7 @@ I18N.th["repository/subscription"] = { // 仓库 - 通知状态页面
         "You will only receive notifications when you participate or are @mentioned.": "只有当您参与或被 @您 时，您才会收到通知。",
         "Releases only": "仅发行版",
         "You will only receive notifications for new releases, or when you participate or are @mentioned.": "您只会收到新版本的通知，或者当您参与或被 @您 时。",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
         "You will receive all notifications for this repository.": "您将收到此仓库的所有通知。",
         "Ignored": "忽略",
         "You will not receive any notifications for this repository.": "您将不会收到有关此仓库的任何通知。",
@@ -10079,7 +10083,7 @@ I18N.th["repository-insights-menu"] = { // 仓库 -> 洞察 - 公共部分
         // "Punch card": "时刻",
         "Network": "网络",
         // "Members": "成员",
-        "Forks": "复刻",
+        "Forks": "แยก",
 
         "People": "成员", //组织仓库
 
@@ -10104,7 +10108,7 @@ I18N.th["repository/pulse"] = { // 仓库 -> 洞察 - 统计
         // 统计 /<user-name>/<repo-name>/pulse
         "Period:": "周期：",
         "Filter activity": "筛选活动",
-        "24 hours": "24 小时",
+        "24 hours": "24 ชั่วโมง",
         "3 days": "3 天",
         "1 week": "1 周",
         "1 month": "1 个月",
@@ -10125,8 +10129,8 @@ I18N.th["repository/pulse"] = { // 仓库 -> 洞察 - 统计
         // [/(\d+) authors?/, "$1 位作者"],
         "have pushed": "推送了",
         "has pushed": "推送了",
-        "commit": "次提交",
-        "commits": "次提交",
+        "commit": "การบันทึก",
+        "commits": "การบันทึก",
         // [/to ([^ ]+), and/, "到 $1 分支和"],
         // [/to all branches. On ([^ ]+),/, "到全部分支。在 $1 分支，"],
         // [/(\d+) files?/, "$1 个文件"],
@@ -10199,7 +10203,7 @@ I18N.th["repository/graphs/contributors"] = { // 仓库 -> 洞察 - 贡献者
         ...I18N.th["repository-public"]["regexp"],
         [/Contributions to (.*), excluding merge commits/, "贡献到 $1 分支，不包括合并提交"],
         [/Contributions to (.*), excluding merge commits and bot accounts/, "贡献到 $1 分支，不包括合并提交和机器人帐户"],
-        [/([\d,]+) commits?/, "$1 次提交"],
+        [/([\d,]+) commits?/, "$1 การบันทึก"],
     ],
 };
 
@@ -10268,11 +10272,11 @@ I18N.th["repository/community"] = { // 仓库 -> 洞察 - 社区准则
         "Writing a README": "编写自述文件（README）",
         "Code of conduct": "行为准则",
         "What is a code of conduct?": "什么是行为准则？",
-        "Contributing": "贡献",
+        "Contributing": "การมีส่วนร่วม",
         "Writing contributing guidelines": "编写贡献指南",
-        "License": "许可证",
+        "License": "ใบอนุญาต",
         "Choosing a license": "选择许可证",
-        "Security policy": "安全政策",
+        "Security policy": "นโยบายความปลอดภัย",
         "Set up a security policy": "设置安全策略",
         "Issue templates": "议题模板",
         "Pull request template": "拉取请求模板",
@@ -10628,7 +10632,7 @@ I18N.th["repository/forks"] = { // 仓库 -> 洞察 - 复刻
         "Forks of other forks": "其他复刻的复刻",
         "Archived": "存档",
         "Archived repositories": "已存档的仓库",
-        "Starred": "星标",
+        "Starred": "ติดดาวแล้ว",
         "Repositories with at least 1 star": "至少有 1 个星标的仓库",
         "Sort:": "排序:",
         "Sort by": "排序方式",
@@ -10671,8 +10675,8 @@ I18N.th["repository-settings-menu"] = { // 仓库设置公共部分
         "Code review limits": "代码审查限制",
 
         "Code and automation": "代码与自动化",
-        "Branches": "分支",
-        "Tags": "标签",
+        "Branches": "แขนง",
+        "Tags": "แท็ก",
         "Rules": "规则",
         "Rulesets": "规则集",
         // "Actions": "การดำเนินการ",
@@ -10706,7 +10710,7 @@ I18N.th["repository/settings"] = { // 仓库设置 - 通常 /<user-name>/<repo-n
         "Repository name": "ชื่อ Repository",
         "Rename": "重命名",
         // [/is available./, "名称可用。"],
-        "The repository": "仓库",
+        "The repository": "Repository",
         "already exists on this account.": "已经存在于此帐户。",
         "Your new repository will be created as": "您的新仓库将被创建为",
         // 顶部提醒
@@ -10802,7 +10806,7 @@ I18N.th["repository/settings"] = { // 仓库设置 - 通常 /<user-name>/<repo-n
         "If disabled, existing forks will be unaffected.": "如果禁用，现有复刻将不受影响。", // 组织仓库
 
         // 赞助
-        "Sponsorships": "赞助",
+        "Sponsorships": "ผู้สนับสนุน",
         "Sponsorships help your community know how to financially support this repository.": "赞助可帮助您的社区了解如何在资金上支持此仓库。",
         "Display a \"Sponsor\" button": "显示 “赞助” 按钮",
         "Add links to GitHub Sponsors or third-party methods your repository accepts for financial contributions to your project.": "添加指向 GitHub 赞助者或您的仓库接受的第三方收款链接，以便为您的项目提供资金捐助。",
@@ -10964,7 +10968,7 @@ I18N.th["repository/settings"] = { // 仓库设置 - 通常 /<user-name>/<repo-n
         "Updating any repository settings": "更新仓库设置",
         "Closing all open issues and pull requests": "关闭所有打开的议题和拉取请求",
         "Making a note in your README": "在您的 README 中做个说明",
-        "Please type": "请键入",
+        "Please type": "โปรดพิมพ์",
         "to confirm.": "进行确定。",
         "I understand the consequences, archive this repository": "我明白后果，依然存档该仓库",
         // "This repository has been archived by the owner. It is now read-only.": "此仓库已由所有者存档。它现在是只读的。",
@@ -10981,8 +10985,8 @@ I18N.th["repository/settings"] = { // 仓库设置 - 通常 /<user-name>/<repo-n
         "read-write.": "可读写。",
         "Once unarchived, the following can be modified and commented on:": "一旦解除存档，就可以对以下内容进行修改和评论：",
         "Pull Requests": "ดึงคำขอ",
-        "Labels": "标签",
-        "Releases": "发行版",
+        "Labels": "แท็ก",
+        "Releases": "การเผยแพร่",
         "Milestones": "里程碑",
         "Security features will become available:": "安全功能将不可用：",
         "I understand the consequences, unarchive this repository": "我明白后果，依然解除该仓库存档",
@@ -11139,7 +11143,7 @@ I18N.th["repository/settings/interaction_limits"] = { // 仓库设置 - 互动�
         "Disable": "禁用",
         // 交互限制时间 下拉菜单
         "Enable interaction limits for:": "启用交互限制：",
-        "24 hours": "24 小时",
+        "24 hours": "24 ชั่วโมง",
         "3 days": "3 天",
         "1 week": "1 周",
         "1 month": "1 个月",
@@ -11341,7 +11345,7 @@ I18N.th["repository/settings/branch_protection_rules"] = { // 仓库设置 - 分
         "Allow deletions": "允许删除",
         "Allow users with push access to delete matching branches.": "允许具有推送权限的用户删除匹配的分支。",
 
-        "Create": "创建",
+        "Create": "สร้าง",
 
         // 顶部提醒
         "Branch protection rule created.": "分支保护规则已创建。",
@@ -11533,7 +11537,7 @@ I18N.th["repository/settings/rules"] = { // 仓库设置 - 规则 - 规则集 /<
 
         "Branch targeting has not been configured": "尚未配置分支目标",
         "targeting determines which": "目标决定了",
-        "branches": "分支",
+        "branches": "แขนง",
         "will be protected by this ruleset. Use inclusion patterns to expand the list of": "将受此规则集保护。使用包含规则来扩展此规则集下的列表",
         "under this ruleset. Use exclusion patterns to exclude": "使用排除规则来排除",
 
@@ -11602,7 +11606,7 @@ I18N.th["repository/settings/rules"] = { // 仓库设置 - 规则 - 规则集 /<
         // 仓库
         "Select a repository": "选择仓库",
         "Select an item": "选择项目",
-        "Repos": "仓库",
+        "Repos": "Repository",
         "Select branch or tag": "筛选分支或标签",
         "Branch or tag": "分支或标签",
         "Pin to commit": "固定到提交",
@@ -11717,8 +11721,8 @@ I18N.th["repository/settings/rules"] = { // 仓库设置 - 规则 - 规则集 /<
         // 新建标签规则 /<user-name>/<repo-name>/settings/rules/new?target=tag&enforcement=disabled
         "Target tags": "目标标签",
         "Tag targeting has not been configured": "尚未配置标签目标",
-        "Tag": "标签",
-        "tags": "标签",
+        "Tag": "แท็ก",
+        "tags": "แท็ก",
         "Include all tags": "包含所有标签",
         "All tags": "所有标签",
         "Tags that match the matching pattern will be targeted by this ruleset.": "与匹配规则相匹配的标签将成为该规则集的目标。",
@@ -11969,13 +11973,13 @@ I18N.th["repository/settings/hooks"] = { // 仓库设置 - Web 钩子 /<user-nam
         "Discussion comment created, edited, or deleted.": "讨论评论的创建、编辑或删除。",
         // "Discussion": "การสนทนา",
         "Discussion created, edited, closed, reopened, pinned, unpinned, locked, unlocked, transferred, answered, unanswered, labeled, unlabeled, had its category changed, or was deleted.": "讨论的创建、编辑、关闭、重新打开、置顶、取消置顶、锁定、解锁、转移、答复、取消答复、标记、取消标记、更改其类别或删除。",
-        "Forks": "复刻",
+        "Forks": "แยก",
         "Repository forked.": "仓库复刻。",
         "Issue comments": "议题评论",
         "Issue comment created, edited, or deleted.": "议题评论的创建、编辑或删除。",
         // "Issue": "议题",
         "Issue opened, edited, deleted, transferred, pinned, unpinned, closed, reopened, assigned, unassigned, labeled, unlabeled, milestoned, demilestoned, locked, or unlocked.": "议题的打开、编辑、删除、转移、置顶、取消置顶、关闭、重新打开、分配、取消分配、标记、取消标记、设置里程碑、取消里程碑、锁定或解锁。",
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "Label created, edited or deleted.": "标签的创建、编辑或删除。",
         "Memberships": "团队成员", // 组织设置
         "Team membership added or removed.": "团队成员的添加或删除。",
@@ -12016,9 +12020,9 @@ I18N.th["repository/settings/hooks"] = { // 仓库设置 - Web 钩子 /<user-nam
         "Git push to a repository.": "Git 推送到仓库。",
         "Registry packages": "注册软件包",
         "Registry package published or updated in a repository.": "仓库中注册软件包的发布或更新。",
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         "Release created, edited, published, unpublished, or deleted.": "发行版的创建、编辑、发布、取消发布或删除。",
-        // "": "仓库",
+        // "": "Repository",
         "Repository created, deleted, archived, unarchived, publicized, privatized, edited, renamed, or transferred.": "仓库的创建、删除、归档、取消归档、公开、私有化、编辑、重命名或转让。",
         "Repository advisories": "仓库公告",
         "Repository advisory published or reported.": "仓库公告发布或报告。",
@@ -12034,7 +12038,7 @@ I18N.th["repository/settings/hooks"] = { // 仓库设置 - Web 钩子 /<user-nam
         "Secrets scanning alert created, resolved, or reopened": "机密扫描警报的创建、解决或重新打开",
         "Security and analyses": "安全和分析",
         "Code security and analysis features enabled or disabled for a repository.": "启用或禁用仓库的代码安全和分析功能。",
-        // "": "星标",
+        // "": "ดาว",
         "A star is created or deleted from a repository.": "星标或取消仓库星标。",
         "Statuses": "状态",
         "Commit status updated from the API.": "通过 API 更新提交状态。",
@@ -12044,7 +12048,7 @@ I18N.th["repository/settings/hooks"] = { // 仓库设置 - Web 钩子 /<user-nam
         "Team is created, deleted, edited, or added to/removed from a repository.": "团队的创建、删除、编辑以及向仓库添加团队、从仓库中移除团队。",
         "Visibility changes": "可见性变化",
         "Repository changes from private to public.": "仓库从私有更改为公共。",
-        "Watches": "关注",
+        "Watches": "จับตาดู",
         "User stars a repository.": "用户星标仓库。",
         "Wiki": "",
         "Wiki page updated.": "Wiki 页面的更新。",
@@ -12164,7 +12168,7 @@ I18N.th["repository/settings/environments"] = { // 仓库设置 - 环境 /<user-
         "Add deployment branch or tag rule": "添加部署分支或标签规则",
         // 添加部署分支规则 对话框
         "Ref type:": "引用类型：",
-        "Tag": "标签",
+        "Tag": "แท็ก",
         "Name pattern:": "名称的模式：",
         "Add rule": "添加规则",
         "Update deployment branch rule": "更新部署分支规则",
@@ -12314,7 +12318,7 @@ I18N.th["repository/settings/codespaces"] = { // 仓库设置 - 代码空间 /<u
         "Disable prebuild optimization": "禁用预构建优化",
         "This prevents codespaces from attempting to use an older image to speed up boot time. This could adversely affect performance.": "这可以防止代码空间尝试使用旧的映像来加快启动时间。这可能会对性能产生不利影响。",
         "Hide advanced options": "隐藏高级选项",
-        "Create": "创建",
+        "Create": "สร้าง",
 
     },
     "regexp": [ // 正则翻译
@@ -12372,7 +12376,7 @@ I18N.th["repository/settings/pages"] = { // 仓库设置页面(含组织仓库) 
         "Learn more about deploying to GitHub Pages using custom workflows": "了解更多关于使用自定义工作流程部署到 GitHub Pages 的信息",
 
         // 从分支部署模式
-        "Branch": "分支",
+        "Branch": "แขนง",
         // 禁用时
         "GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.": "GitHub Pages 目前已被禁用。在下面选择一个源，为该仓库启用 GitHub Pages。",
         "GitHub Pages is currently disabled. You must first add content to your repository before you can publish a GitHub Pages site.": "GitHub Pages 目前已被禁用。您必须先将内容添加到您的仓库，然后才能发布 GitHub Pages 站点。",
@@ -12812,7 +12816,7 @@ I18N.th["repository/transfer"] = { // 转让仓库
         "Specify an organization or username": "指定组织或用户名",
         "Repository name": "仓库名",
         "Checking availability…": "检查可用性…",
-        "The repository": "仓库",
+        "The repository": "Repository",
         "already exists on this account": "已经存在于此帐户",
         "Your new repository will be created as": "您的新仓库将被创建为",
         "New repository name must not be blank": "新仓库名称不能为空",
@@ -12826,7 +12830,7 @@ I18N.th["repository/transfer"] = { // 转让仓库
         "Any existing": "任何已存在的",
         "wikis": "WiKi",
         "Pulse, Contributors, Community, Traffic, Commits, Code Frequency, Network,": "统计，贡献者，社区，流量，提交，代码频率，网络，",
-        "Forks": "复刻",
+        "Forks": "แยก",
         "on the": "在",
         "Insights": "ข้อมูลเชิงลึก",
         "tab": "标签页",
@@ -12853,6 +12857,7 @@ I18N.th["repository/transfer"] = { // 转让仓库
 
         "to confirm.": "进行确认。",
         "I understand, transfer this repository.": "我明白了，依然转让该仓库。",
+
 
     },
     "regexp": [ // 正则翻译
@@ -12903,7 +12908,7 @@ I18N.th["repository/codespaces"] = { // 仓库 - 代码空间界面 /<user-name>
         "Export changes to a fork": "将更改导出到复刻",
         "You do not have write access to this codespace's repository. This will create a new fork of the repository at": "您没有对此代码空间的存储库的写访问权限。这将创建一个新的存储库分支在",
         ", reassign your codespace to that fork, and export your changes to a new branch.": "，将代码空间重新分配给该复刻，并将更改导出到新分支。",
-        "Create fork": "创建复刻",
+        "Create fork": "สร้างสาขาแยกใหม่",
         "Change machine type": "修改机器类型",
         "Change codespace machine type": "修改代码空间机器类型",
         "Machine type": "机器类型",
@@ -13492,7 +13497,7 @@ I18N.th["notifications"] = { // 通知页面
         "Group by: Date": "分组：日期",
         "Group by: Repository": "分组：仓库",
         "Date": "日期",
-        "Repository": "仓库",
+        "Repository": "Repository",
         // [/(\d+) new notifications?/, "$1 条新通知"], // 通知管理页
 
         // 筛选结果
@@ -13522,7 +13527,7 @@ I18N.th["notifications"] = { // 通知页面
         "Notification settings": "通知设置",
         "Watched repositories": "关注的仓库",
         "Subscriptions": "订阅",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
 
         "subscribed": "订阅",
         "mention": "提及",
@@ -13552,7 +13557,7 @@ I18N.th["notifications"] = { // 通知页面
         "Name": "名称",
         "Filter inbox by…": "筛选收件箱…",
         "Create new filter": "创建新规则",
-        "Create": "创建",
+        "Create": "สร้าง",
         "Query": "规则",
 
         "All caught up!": "处理完了！",
@@ -13564,7 +13569,7 @@ I18N.th["notifications"] = { // 通知页面
 
         // /notifications?query=repo 某个仓库
         "We've noticed that you rarely interact with this repository, are you sure you need notifications?": "我们注意到您很少与此仓库交互，您确定需要通知吗？",
-        "Unwatch": "取消关注",
+        "Unwatch": "ยกเลิกจับตาดู",
         // "Notifications": "通知类型",
         "Participating and @mentions": "参与和 @您",
         "Only receive notifications from this repository when participating or @mentioned.": "仅在参与或 @您 时接收来自此仓库的通知。",
@@ -13575,7 +13580,7 @@ I18N.th["notifications"] = { // 通知页面
         "Custom": "自定义",
         "Select events you want to be notified of in addition to participating and @mentions.": "选择除参与和 @您 之外还要接收通知的事件。",
         "Discussions are not enabled for this repo": "此仓库未启用讨论功能",
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         "Discussions": "การสนทนา",
         "Discussions are not enabled for this repository": "该仓库未启用讨论功能",
         "Security alerts": "安全警报",
@@ -13601,7 +13606,7 @@ I18N.th["notifications"] = { // 通知页面
 I18N.th["watching"] = { // 关注的仓库页面
     "static": { // 静态翻译
         "Notifications": "通知",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
         "Subscriptions": "订阅",
         "Custom": "自定义",
         // "Ignoring": "忽略",
@@ -13615,8 +13620,8 @@ I18N.th["watching"] = { // 关注的仓库页面
 
         "Ignoring": "忽略",
         "Stop ignoring": "取消忽略",
-        "Watch": "关注",
-        "Unwatch": "取消关注",
+        "Watch": "จับตาดู",
+        "Unwatch": "ยกเลิกจับตาดู",
 
         //"Watched repositories": "关注的仓库",
 
@@ -13644,7 +13649,7 @@ I18N.th["watching"] = { // 关注的仓库页面
         // "Custom": "自定义",
         "Select events you want to be notified of in addition to participating and @mentions.": "选择除参与和 @您 之外还要接收通知的事件。",
         "Discussions are not enabled for this repo": "此仓库未启用讨论功能",
-        "Releases": "发行版",
+        "Releases": "การเผยแพร่",
         "Discussions": "การสนทนา",
         "Discussions are not enabled for this repository": "该仓库未启用讨论功能",
         "Security alerts": "安全警报",
@@ -13668,7 +13673,7 @@ I18N.th["watching"] = { // 关注的仓库页面
 I18N.th["notifications/subscriptions"] = { //订阅的仓库页面
     "static": { // 静态翻译
         "Notifications": "通知",
-        "Watching": "关注",
+        "Watching": "จับตาดู",
         "Subscriptions": "订阅",
 
         "Reason": "原因",
@@ -13691,7 +13696,7 @@ I18N.th["notifications/subscriptions"] = { //订阅的仓库页面
         "You changed the thread state (for example, closing an Issue or merging a Pull Request).": "您更改了话题状态（例如，关闭议题或合并拉取请求）。",
         "Team Mention": "提及团队",
         "You were on a team that was mentioned.": "您在团队中被提及。",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Filter by repository": "按仓库筛选",
         "Filter repository": "筛选仓库",
         "All repositories": "所有仓库",
@@ -13740,7 +13745,7 @@ I18N.th["stars"] = { // 星标 https://github.com/stars/<user-name>
         "Recently active": "最近活跃",
         "Most stars": "最多标星",
 
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
         "Unstar": "已加星标于",
         "See all starred repositories": "查看所有星标仓库",
         "See all starred topics": "查看所有星标主题",
@@ -13829,7 +13834,7 @@ I18N.th["issues"] = { // 议题页面
 
         // 键盘快捷键
         "Pull request list": "拉取请求列表",
-        "Open pull request": "打开拉取请求",
+        "Open pull request": "เปิดคำขอดึง",
         "Pull request - Conversation tab": "拉取请求 - 对话选项卡",
         "Open in github.dev editor": "在 github.dev 编辑器中打开",
         "Open github.dev editor in a new tab": "在新标签页中打开 github.dev 编辑器",
@@ -13913,7 +13918,7 @@ I18N.th["search"] = { // 搜索页面
         // 左侧菜单
         "Filter by": "筛选",
         "Code": "โค้ด",
-        "Repositories": "仓库",
+        "Repositories": "Repository",
         "Commits": "提交",
         "Discussions": "การสนทนา",
         "Topics": "主题",
@@ -13947,7 +13952,7 @@ I18N.th["search"] = { // 搜索页面
         "Date created": "创建日期",
         "Date pushed": "推送日期",
         "Topic": "话题",
-        "License": "许可证",
+        "License": "ใบอนุญาต",
         "Archived": "存档",
 
         // &type=code
@@ -13963,7 +13968,7 @@ I18N.th["search"] = { // 搜索页面
         "Mentioned team": "提及的团队",
         "Commenter": "评论者",
         "Involved user": "相关用户",
-        "Label": "标签",
+        "Label": "แท็ก",
         "Milestone": "里程碑",
         "Number of comments": "评论数",
         "Number of interactions": "互动数",
@@ -13996,7 +14001,7 @@ I18N.th["search"] = { // 搜索页面
         "Advanced search": "高级搜索",
         // &type=wikis
         "User": "用户",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Last updated date": "最后更新日期",
         // &type=topics
         "Curated topics": "策划主题",
@@ -14064,7 +14069,7 @@ I18N.th["search"] = { // 搜索页面
         "Name has already been taken": "名称被占用",
 
         // &type=repositories
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
         // [/Sponsor ([^ ]+)?/, "赞助 $1"], // 赞助按钮 对话框 标题
         // 赞助对话框
         "External links": "外部链接",
@@ -14190,7 +14195,7 @@ I18N.th["search"] = { // 搜索页面
         "Pushed to": "推送于",
         "With this license": "用何种许可证",
         "Any license": "任意许可证",
-        "Licenses": "许可证",
+        "Licenses": "ใบอนุญาต",
         "License families": "许可证系列",
         "Return repositories": "搜索结果",
         "not": "不",
@@ -14278,13 +14283,13 @@ I18N.th["gist"] = { // 代码片段页面
         "All gists": "所有片段",
         "Back to GitHub": "返回到 GitHub",
 
-        "Forked": "复刻",
-        "Starred": "星标",
+        "Forked": "แยกแล้ว",
+        "Starred": "ติดดาวแล้ว",
 
         // 左侧用户信息栏
         "Change your avatar": "修改头像",
         "followers": "关注者",
-        "following": "关注",
+        "following": "จับตาดู",
         "Joined": "加入于",
         "View GitHub Profile": "查看 GitHub 个人资料",
 
@@ -14325,7 +14330,7 @@ I18N.th["gist"] = { // 代码片段页面
         "Line wrap mode": "换行模式",
         "No wrap": "不换行",
         "Soft wrap": "软换行",
-        "Add file": "添加文件",
+        "Add file": "เพิ่มไฟล์",
         "Remove file": "移除文件",
 
         // All gists 标签卡
@@ -14362,7 +14367,7 @@ I18N.th["gist"] = { // 代码片段页面
         "Gist deleted successfully.": "代码片段已成功删除。",
         "Subscribe": "订阅",
         // "Unsubscribe": "退订",
-        "Star": "星标",
+        "Star": "ดาว",
         "Star this gist": "星标该代码片段",
         "Unstar": "取消星标",
         "Unstar this gist": "取消该代码片段星标",
@@ -14371,8 +14376,8 @@ I18N.th["gist"] = { // 代码片段页面
 
         "Code": "โค้ด",
         "Revisions": "修订",
-        "Stars": "星标",
-        "Forks": "复刻",
+        "Stars": "ดาว",
+        "Forks": "แยก",
 
         "Drop one or more files here to prefill your gist!": "在此处拖放一个或多个文件以填充您的 Gist！",
 
@@ -14400,7 +14405,7 @@ I18N.th["gist"] = { // 代码片段页面
         // 修订标签卡
         "Unified": "同屏",
         "Split": "分屏",
-        "created": "创建",
+        "created": "สร้างเมื่อ",
         "revised": "修订",
         "renamed": "重命名",
         "this gist": "该片段于",
@@ -14428,7 +14433,7 @@ I18N.th["gist"] = { // 代码片段页面
 
         // 编辑代码页面
         "Editing": "编辑",
-        "Edit file": "编辑文件",
+        "Edit file": "แก้ไขไฟล์",
         "Edit new file": "编辑新文件",
         "Preview changes": "预览更改",
         "Loading preview…": "载入预览…",
@@ -14573,17 +14578,17 @@ I18N.th["explore"] = { // 探索页面
     "static": { // 静态翻译
 
         // github.com/explore
-        "Explore": "探索",
-        "Topics": "主题",
-        "Trending": "热门",
-        "Collections": "集合",
-        "Events": "活动",
-        "GitHub Sponsors": "GitHub 赞助",
-        "Get email updates": "获取电子邮件更新",
-        "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
+        "Explore": "สำรวจ",
+        "Topics": "หัวข้อ",
+        "Trending": "กำลังมาแรง",
+        "Collections": "คอลเลกชัน",
+        "Events": "กิจกรรม",
+        "GitHub Sponsors": "ผู้สนับสนุน GitHub",
+        "Get email updates": "รับข้อมูลอัปเดตทางอีเมล",
+        "Change email updates": "เปลี่ยนอีเมลที่จะรับการอัปเดต", // 已设置邮件更新通知
 
         // 右侧信息栏
-        "Trending repositories": "热门仓库",
+        "Trending repositories": "repository ที่กำลังมาแรง",
         "See more trending repositories": "查看更多热门仓库",
         "Trending developers": "热门开发者",
         "See more trending developers": "查看更多热门开发者",
@@ -14643,11 +14648,11 @@ I18N.th["topics"] = { // 探索-->主题页面
     "static": { // 静态翻译
 
         // github.com/topics
-        "Explore": "探索",
-        "Topics": "主题",
-        "Trending": "热门",
+        "Explore": "สำรวจ",
+        "Topics": "หัวข้อ",
+        "Trending": "กำลังมาแรง",
         "Collections": "集合",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Sponsors": "GitHub 赞助",
         "Get email updates": "获取电子邮件更新",
         "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
@@ -14655,7 +14660,7 @@ I18N.th["topics"] = { // 探索-->主题页面
         "Browse popular topics on GitHub.": "浏览 GitHub 上的热门主题。",
         "All featured topics": "所有主题",
         "Popular topics": "热门主题",
-        "Unstar": "已加星标",
+        "Unstar": "ยกเลิกติดดาว",
         "Load more…": "载入更多…",
         "Loading more…": "载入中…",
 
@@ -14665,7 +14670,7 @@ I18N.th["topics"] = { // 探索-->主题页面
 
         "Related Topics": "相关主题",
         "Updated": "更新于",
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
 
         "Language:": "语言:",
         "Filter by language": "按语言筛选",
@@ -14696,11 +14701,11 @@ I18N.th["topics"] = { // 探索-->主题页面
 
 I18N.th["trending"] = { // 热门页面
     "static": { // 静态翻译
-        "Explore": "探索",
+        "Explore": "สำรวจ",
         "Topics": "主题",
         "Trending": "热门",
         "Collections": "集合",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Sponsors": "GitHub 赞助",
         "Get email updates": "获取电子邮件更新",
         "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
@@ -14713,10 +14718,10 @@ I18N.th["trending"] = { // 热门页面
         "These are the developers building the hot tools this week.": "这些是本周创建热门项目的开发人员。",
         "These are the developers building the hot tools this month.": "这些是本月创建热门项目的开发人员。",
 
-        "Repositories": "仓库",
+        "Repositories": "Repository",
         "Developers": "开发者",
 
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
         "Built by": "构建者",
 
         "Spoken Language:": "母语：",
@@ -14752,11 +14757,11 @@ I18N.th["trending"] = { // 热门页面
 
 I18N.th["collections"] = { // 集合页面
     "static": { // 静态翻译
-        "Explore": "探索",
+        "Explore": "สำรวจ",
         "Topics": "主题",
         "Trending": "热门",
         "Collections": "集合",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Sponsors": "GitHub 赞助",
         "Get email updates": "获取电子邮件更新",
         "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
@@ -14772,11 +14777,11 @@ I18N.th["collections"] = { // 集合页面
 
 I18N.th["events"] = { // 活动页面
     "static": { // 静态翻译
-        "Explore": "探索",
+        "Explore": "สำรวจ",
         "Topics": "主题",
         "Trending": "热门",
         "Collections": "集合",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Sponsors": "GitHub 赞助",
         "Get email updates": "获取电子邮件更新",
         "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
@@ -14850,11 +14855,11 @@ I18N.th["sponsors"] = { // 赞助界面
         "Join waitlist": "加入等候名单",
 
         // 探索 GitHub 赞助者界面 https://github.com/sponsors/explore
-        "Explore": "探索",
+        "Explore": "สำรวจ",
         "Topics": "主题",
         "Trending": "热门",
         "Collections": "集合",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Sponsors": "GitHub 赞助者",
         "Get email updates": "获取电子邮件更新",
         "Change email updates": "更改电子邮件更新", // 已设置邮件更新通知
@@ -14874,7 +14879,7 @@ I18N.th["sponsors"] = { // 赞助界面
         "searching for people you can sponsor": "寻找可以接受您赞助的人",
         "and filtering by language!": "并通过语言筛选！",
         "Clear filter": "清除筛选器",
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
         "Invest in open source software and we'll track your progress here!": "赞助开源软件，我们将在这里跟踪您的进度！",
     },
     "regexp": [ // 正则匹配
@@ -15015,7 +15020,7 @@ I18N.th["marketplace"] = { // GitHub 市场
         "Backup Utilities": "备份工具",
         "Utilities providing periodic backups of your GitHub data": "定期备份 GitHub 数据的实用工具",
 
-        "Filters": "筛选器",
+        "Filters": "การกรอง",
         // 免费
         "Tools that provide a free tier.": "提供免费套餐的工具。",
         "Free Trials": "免费试用",
@@ -15176,7 +15181,7 @@ I18N.th["orgs"] = { // 组织页面
         // [/doesn't have any pinned public repositories yet./, "还没有任何置顶的公共仓库。"],
 
         "followers": "关注者",
-        "Sponsor": "赞助",
+        "Sponsor": "ผู้สนับสนุน",
 
         "Send feedback": "发送反馈",
 
@@ -15191,9 +15196,9 @@ I18N.th["orgs"] = { // 组织页面
         "Select type": "选择类型",
         "All": "全部",
         "Public": "สาธารณะ",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "Sources": "源码",
-        "Forks": "复刻",
+        "Forks": "แยก",
         "Archived": "存档",
         "Can be sponsored": "可赞助",
         "Mirrors": "镜像",
@@ -15211,15 +15216,15 @@ I18N.th["orgs"] = { // 组织页面
         // "Recently active": "最近活跃",
         // "Most stars": "最多星标",
         // "Unstar": "取消星标",
-        "New": "新建",
+        "New": "ใหม่",
 
         // 筛选结果
         "result for": "个结果在",
         "results for": "个结果在",
         "public": "สาธารณะ",
-        "private": "私有",
+        "private": "ส่วนตัว",
         "source": "源码",
-        "forked": "复刻",
+        "forked": "แยกแล้ว",
         "archived": "存档",
         "sponsorable": "可赞助",
         "mirror": "镜像",
@@ -15238,7 +15243,7 @@ I18N.th["orgs"] = { // 组织页面
         "sorted by": "，排序按",
         "last updated": "最近更新",
         "name": "仓库名",
-        "stars": "星标",
+        "stars": "ดาว",
         "all": "所有",
         "repositories written in": "仓库中使用语言",
 
@@ -15264,7 +15269,7 @@ I18N.th["orgs"] = { // 组织页面
         // [/You are viewing the README and pinned repositories as a member of the ([^ ]+) organization./, "您正在以 $1 组织成员的身份查看自述文件和置顶仓库。"],
 
         "You can": "您可以",
-        "pin repositories": "置顶仓库",
+        "pin repositories": "repository ที่ปักหมุด",
         "visible to anyone.": "让任何人都能看到。",
         "visible only to members of the organization.": "仅对组织成员可见。",
 
@@ -15750,7 +15755,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
         "Public": "สาธารณะ",
         "Members will be able to create public repositories, visible to anyone.": "成员将能够创建任何人都可见的公共仓库。",
         "Why is this option disabled?": "为什么该选项被禁用？",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "Members will be able to create private repositories, visible to organization members with permission.": "成员将能够创建私有仓库，对有权限的组织成员可见。",
         // 顶部提醒
         "Members can no longer create public or private repositories.": "成员不能再创建公共或私有仓库。",
@@ -15803,7 +15808,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
         "Members will be able to publish sites with only the selected access controls.": "成员将能够发布仅只有选定的访问控制的站点。",
         // "Public": "สาธารณะ",
         "Members will be able to create public sites, visible to anyone.": "成员将能够创建任何人都可见的公共站点。",
-        // "Private": "私有",
+        // "Private": "ส่วนตัว",
         "Members will be able to create private sites, visible to anyone with permission.": "成员将能够创建私有站点，对任何有权限的人可见。",
         // 顶部提醒
         "Projects settings updated for this organization.": "该组织的项目设置已经更新。",
@@ -15827,7 +15832,7 @@ I18N.th["orgs/settings/member_privileges"] = { // 组织设置 - 成员权限
         "Allow members to delete or transfer repositories for this organization": "允许成员删除或转让此组织的仓库",
         "If enabled, members with admin permissions for the repository will be able to delete or transfer": "如果启用，对仓库有管理权限的成员将能够删除或转让",
         "public": "สาธารณะ",
-        "private": "私有",
+        "private": "ส่วนตัว",
         "repositories. If disabled, only organization owners can delete or transfer repositories.": "仓库。如果禁用，只有组织所有者可以删除或转让仓库。",
         // 顶部提醒
         "Members can now delete or transfer repositories.": "成员现在可以删除或转让仓库。",
@@ -15950,7 +15955,7 @@ I18N.th["orgs/settings/interaction_limits"] = { // 组织设置 - 互动限制
         "Organization members": "组织成员",
         // 交互限制时间 下拉菜单
         "Enable interaction limits for:": "启用交互限制：",
-        "24 hours": "24 小时",
+        "24 hours": "24 ชั่วโมง",
         "3 days": "3 天",
         "1 week": "1 周",
         "1 month": "1 个月",
@@ -16259,7 +16264,7 @@ I18N.th["orgs/settings/actions"] = { // 组织设置 - 操作
         "To increase your concurrency limit, upgrade your": "要增加您的并发限制，请升级您的",
         "GitHub plan.": "GitHub 计划。",
 
-        "Labels": "标签",
+        "Labels": "แท็ก",
 
         "Active jobs": "活跃的工作",
         "There are currently no running jobs": "目前没有正在运行的工作",
@@ -16841,7 +16846,7 @@ I18N.th["orgs/settings/personal-access-token"] = { // 组织设置 - 个人访�
         "Filter by owner": "按所有者筛选",
         "Filter users": "筛选用户",
 
-        // "Repository": "仓库",
+        // "Repository": "Repository",
         "Filter by repository": "按仓库筛选",
         "Filter repositories": "筛选仓库",
 
@@ -16873,7 +16878,7 @@ I18N.th["orgs/settings/personal-access-token"] = { // 组织设置 - 个人访�
         "Blocking users": "拉黑用户",
         "Custom organization roles": "自定义组织角色",
         "Custom repository roles": "自定义仓库角色",
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "GitHub Copilot Business": "GitHub Copilot 商业版",
         "Members": "成员",
         "Organization announcement banners": "组织公告横幅",
@@ -16949,7 +16954,7 @@ I18N.th["orgs/settings/audit-log"] = { // 组织设置 - 审计日志
         ...I18N.th["orgs-settings-menu"]["static"],
 
         // Audit log 审计日志 /organizations/<org-login>/settings/audit-log
-        "Events": "活动",
+        "Events": "กิจกรรม",
         "Loading audit log entries…": "正在加载日志条目…",
         "Filters": "筛选",
         "Filter audit logs": "筛选审计日志",
@@ -17066,12 +17071,12 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Unpin": "取消置顶",
         "Ignoring": "忽略",
         "Stop ignoring": "取消忽略",
-        "Watch": "关注",
-        "Unwatch": "取消关注",
+        "Watch": "จับตาดู",
+        "Unwatch": "ยกเลิกจับตาดู",
 
-        "Star": "星标",
-        "Unstar": "已加星标",
-        "Fork": "复刻",
+        "Star": "ดาว",
+        "Unstar": "ยกเลิกติดดาว",
+        "Fork": "แยก",
         "Unfork": "取消复刻",
 
         // 赞助对话框
@@ -17090,16 +17095,16 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Custom": "自定义",
         "Select events you want to be notified of in addition to participating and @mentions.": "选择除参与和 @您之外还要接收通知的事件。",
         "Discussions are not enabled for this repo": "此仓库未启用讨论功能",
-        // "Releases": "发行版",
+        // "Releases": "การเผยแพร่",
         // "Discussions": "การสนทนา",
         "Security alerts": "安全警报",
         //"Cancel": "取消",
         "Apply": "应用",
 
         // 复刻下拉
-        "Existing forks": "现有的复刻",
-        "You don't have any forks of this repository.": "您没有此仓库的任何复刻。",
-        "Create a new fork": "创建复刻",
+        "Existing forks": "สาขาที่แยกออกมา",
+        "You don't have any forks of this repository.": "คุณไม่มีสาขาที่แยกออกมาจาก repository นี้",
+        "Create a new fork": "สร้างสาขาแยกใหม่",
 
         // 标签栏
         "Code": "โค้ด",
@@ -17130,10 +17135,10 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Opened in": "打开在",
         "commented": "评论于",
         "Show less": "显示更少",
-        "Show more": "显示更多",
+        "Show more": "แสดงเพิ่มเติม",
         "Assignees": "受理人",
         "No one assigned": "无人受理",
-        "Labels": "标签",
+        "Labels": "แท็ก",
         "Milestone": "里程碑",
         "No milestone": "尚无里程碑",
         "Linked pull requests": "关联的拉取请求",
@@ -17167,7 +17172,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Visibility": "可见性",
         // "Public": "สาธารณะ",
         "Anyone on the internet can see this project. You choose who can make changes.": "互联网上的任何人都可以看到这个项目。您选择谁可以进行更改。",
-        "Private": "私有",
+        "Private": "ส่วนตัว",
         "You choose who can see and make changes to this project.": "您可以选择谁可以查看此项目并对其进行更改。",
         "Linked repositories": "关联的仓库",
         "Search": "搜索",
@@ -17272,7 +17277,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Add description": "添加描述",
         "Close project": "关闭项目",
         "Are you sure you want to close": "您确定要关闭",
-        "Activity": "活动",
+        "Activity": "กิจกรรม",
         // ... 展开
         "Copy": "复制",
         "Loading activity": "载入活动",
@@ -17403,7 +17408,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         "Copy card link": "复制卡片链接",
         "Convert to issue": "转换为议题",
         "Convert note to issue": "转换注释为议题",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "Choose a repository for this issue": "为这个议题选择一个仓库",
         "Find a repository": "查找仓库",
         "Title": "标题",
@@ -17601,7 +17606,7 @@ I18N.th["codespaces"] = { // 代码空间页面
         "Export changes to a fork": "将更改导出到复刻",
         "You do not have write access to this codespace's repository. This will create a new fork of the repository at": "您没有对此代码空间的存储库的写访问权限。这将创建一个新的存储库分支在",
         ", reassign your codespace to that fork, and export your changes to a new branch.": "，将代码空间重新分配给该复刻，并将更改导出到新分支。",
-        "Create fork": "创建复刻",
+        "Create fork": "สร้างสาขาแยกใหม่",
         "Publish to a new repository": "发布到新仓库", // 从模板创建
         "This will create a new repository and push up your work.": "这将创建一新仓库，并推送你的工作。",
         // สาธารณะ
@@ -17638,11 +17643,11 @@ I18N.th["codespaces"] = { // 代码空间页面
         // https://github.com/codespaces/new
         "Create a new codespace": "新建代码空间",
         "Codespace usage for this repository is paid for by": "该仓库的代码空间使用费由以下人员支付",
-        "Repository": "仓库",
+        "Repository": "Repository",
         "To be cloned into your codespace": "要被克隆到您的代码空间",
         "Select a repository": "选择仓库",
         "Search for a repository": "查找仓库",
-        "Branch": "分支",
+        "Branch": "แขนง",
         "This branch will be checked out on creation": "创建时将显示此分支",
         "Default branch": "默认分支",
         "Select branch": "选择分支",
@@ -17686,7 +17691,7 @@ I18N.th["codespaces"] = { // 代码空间页面
         [/By ([^ ]+)/, "$1 发布"],
         [/Owned by ([^ ]+)/, "拥有者为 $1"],
         [/Last used (\d+) days ago/, "上次使用 $1 天前"],
-        [/Last used 大约 (\d+) 小时之前/, "上次使用大约 $1 小时以前"],
+        [/Last used 大约 (\d+) ชั่วโมงก่อน/, "ใช้ล่าสุดเมื่อประมาณ $1 ชั่วโมงที่แล้ว"],
         [/Last used less than (\d+) 分钟之前/, "上次使用小于 $1 分钟以前"],
         [/Last used (\d+) 分钟之前/, "上次使用 $1 分钟以前"],
         [/Codespace "([^ ]+)" stopped./, "代码空间 “$1” 停止。"],

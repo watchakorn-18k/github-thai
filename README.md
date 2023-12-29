@@ -1,6 +1,8 @@
 ## Github Thai
 
 ![i](https://cdn.discordapp.com/attachments/372372440334073859/1189870689709211698/image.png?ex=659fbc6f&is=658d476f&hm=42347e2ac304f9d8ed708338d4293cbf6e41df1837181ef15702c41ab6591553&)
+![i](https://cdn.discordapp.com/attachments/372372440334073859/1190372193125810276/image.png?ex=65a18f7e&is=658f1a7e&hm=d9ba72df17de0c1afa7d560e6de96ca855ae7f81f2cca661b28662601e6b3e6e&)
+![i](https://cdn.discordapp.com/attachments/372372440334073859/1190372439952207923/image.png?ex=65a18fb9&is=658f1ab9&hm=db0889e27309017f67fdebc4286e8b5fa92c23f78b9bfc42104fbff08bf3e933&)
 
 ## 🚩 ฟังก์ชั่น
 
