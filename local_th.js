@@ -668,7 +668,7 @@ I18N.th["pubilc"] = { // 公共区域翻译
         "Updating": "更新中",
         "Updating…": "更新中…",
         "Delete": "删除",
-        "Cancel": "取消",
+        "Cancel": "ยกเลิก",
         "Edit": "编辑",
         "Added on": "添加于",
         "Loading...": "载入中...",
@@ -5186,7 +5186,7 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         "A repository contains all project files, including the revision history.": "Repository จะประกอบด้วยไฟล์ทั้งหมดในโปรเจกต์ของคุณและรวมถึงประวัติการแก้ไขต่างๆ",
         "Already have a project repository elsewhere?": "หรือคุณมี Repository แล้วหรือเปล่า?",
         "Import a repository.": "นำเข้า Repository",
-        //"Cancel": "取消",
+        //"Cancel": "ยกเลิก",
         //"Begin import": "开始导入",
         "Owner": "เจ้าของ",
         "Repository name": "ชื่อ Repository",
@@ -5277,7 +5277,7 @@ I18N.th["page-new-repo"] = { // 仓库 - 新建/导入/复刻仓库
         //"Anyone on the internet can see this repository. You choose who can commit.": "ทุกคนสามารถเห็น repository นี้ได้ และคุณสามารถเลือกผู้ที่สามารถ commit ได้ 。",
         //"Private": "ส่วนตัว",
         //"You choose who can see and commit to this repository.": "您可以选择谁可以看和提交到该仓库。",
-        "Cancel": "取消",
+        "Cancel": "ยกเลิก",
         "Begin import": "开始导入",
         "Preparing import…": "准备导入…",
 
@@ -5420,7 +5420,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         "Discussions are not enabled for this repository": "ไม่ได้เปิดใช้งานฟังก์ชันการสนทนาสำหรับ repositoryนี้",
         "Discussions are not enabled for this repo": "ไม่ได้เปิดใช้งานการสนทนาสำหรับ repo นี้",
         "Security alerts": "การแจ้งเตือนความปลอดภัย",
-        //"Cancel": "取消",
+        //"Cancel": "ยกเลิก",
         "Apply": "ปรับใช้",
 
         // 复刻下拉
@@ -8639,7 +8639,7 @@ I18N.th["repository/actions"] = { // 仓库 - 操作页面
         // 状态
         "Success": "成功",
         "Failure": "失败",
-        "Cancelled": "取消",
+        "Cancelled": "ยกเลิก",
         "Total duration": "总时长",
         "Billable time": "计费时间",
 
@@ -13584,7 +13584,7 @@ I18N.th["notifications"] = { // 通知页面
         "Discussions": "การสนทนา",
         "Discussions are not enabled for this repository": "该仓库未启用讨论功能",
         "Security alerts": "安全警报",
-        //"Cancel": "取消",
+        //"Cancel": "ยกเลิก",
         "Apply": "应用",
 
         "ProTip!": "专业提示！",
@@ -13653,7 +13653,7 @@ I18N.th["watching"] = { // 关注的仓库页面
         "Discussions": "การสนทนา",
         "Discussions are not enabled for this repository": "该仓库未启用讨论功能",
         "Security alerts": "安全警报",
-        //"Cancel": "取消",
+        //"Cancel": "ยกเลิก",
         "Apply": "应用",
 
         "Notification settings": "通知设置",
@@ -14439,7 +14439,7 @@ I18N.th["gist"] = { // 代码片段页面
         "Loading preview…": "载入预览…",
         "Make secret": "转为私密",
         "Make public": "转为公开",
-        "Cancel": "取消",
+        "Cancel": "ยกเลิก",
         "Update public gist": "更新公开片段",
         "Update secret gist": "更新私密片段",
 
@@ -17098,7 +17098,7 @@ I18N.th["projects"] = { // 项目页面(含仓库项目)
         // "Releases": "การเผยแพร่",
         // "Discussions": "การสนทนา",
         "Security alerts": "安全警报",
-        //"Cancel": "取消",
+        //"Cancel": "ยกเลิก",
         "Apply": "应用",
 
         // 复刻下拉
