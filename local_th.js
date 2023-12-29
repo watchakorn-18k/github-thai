@@ -5904,7 +5904,7 @@ I18N.th["repository"] = { // 仓库页面 /<user-name>/<repo-name>/
         [/(\d+) commits?/, "$1 การบันทึก"], // 新版仓库概述
         [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub Desktop，保存 $1 到您的电脑。"],
         [/Forking ([^ ]+)/, "复刻 $1 中"], // 复刻中...
-        [/Fork your own copy of ([^ ]+)/, "复刻成您自己的 $1 副本"], // 复刻按钮提示
+        [/Fork your own copy of ([^ ]+)/, "แยกออกมาเป็นสำเนา $1 ให้มาเป็นของคุณเอง"], // 复刻按钮提示
         [/will appear on ([^ ]+)'s member profile, visible only to organization members./, "将出现在 $1 的成员资料中，仅对组织成员可见。"],
     ],
 };
